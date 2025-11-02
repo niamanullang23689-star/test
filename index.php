@@ -7,7 +7,7 @@
 <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-800411572&amp;cx=c&amp;gtm=45He57s1v9195929391za200&amp;tag_exp=101509157~103116026~103200004~103233427~104573694~104684208~104684211~105103161~105103163~105124543~105124545" nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
 <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-943617023&amp;cx=c&amp;gtm=45He57s1v9195929391za200&amp;tag_exp=101509157~103116026~103200004~103233427~104573694~104684208~104684211~105103161~105103163~105124543~105124545" nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
 <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-ZKBVC1X78F&amp;cx=c&amp;gtm=45He57s1v9117991082za200&amp;tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105103161~105103163~105124543~105124545" nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
-<link rel="amphtml" href="https://puriindahmall.pages.dev/teatalk">
+<link rel="amphtml" href="https://puriindahmall.pages.dev/kyochon">
     <meta charset="utf-8">
     <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">
         //<![CDATA[
@@ -43,9 +43,9 @@
     <meta name="google-site-verification" content="WaM4UyAi_xf1BWuAicJBh5CwRbBeelNF4gtxais54b0" />
 
 
-    <title>JOSTOTO Tips Login Efektif Masuk ke Situs Slot Resmi</title>
+    <title>SAMBALTOTO Tips Login Langsung Gas ke Game Slot Terbaik Hari Ini</title>
 
-    <meta name="description" content="JOSTOTO hadir untuk membantu para pemain slot online agar dapat mengakses akun mereka dengan cepat, aman, dan tanpa kendala.">
+    <meta name="description" content="SAMBALTOTO adalah panduan praktis untuk para pemain yang ingin menikmati sensasi bermain slot tanpa hambatan dengan tips login cepat dan mudah.">
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" type="image/x-icon" href="https://i.imgur.com/iiaUT79.png">
@@ -63,25 +63,25 @@
 
     <meta name="theme-color" content="#333333">
 
-    <link rel="canonical" href="https://puriindahmall.co.id/news/teatalk">
+    <link rel="canonical" href="https://puriindahmall.co.id/news/kyochon">
 
    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "JOSTOTO Tips Login Efektif Masuk ke Situs Slot Resmi",
-  "image": "https://puriindahmall.pages.dev/logo-jostoto.png",
-  "description": "JOSTOTO hadir untuk membantu para pemain slot online agar dapat mengakses akun mereka dengan cepat, aman, dan tanpa kendala.",
+  "name": "SAMBALTOTO Tips Login Langsung Gas ke Game Slot Terbaik Hari Ini",
+  "image": "https://puriindahmall.pages.dev/logosambal.png",
+  "description": "SAMBALTOTO adalah panduan praktis untuk para pemain yang ingin menikmati sensasi bermain slot tanpa hambatan dengan tips login cepat dan mudah.",
   "brand": {
     "@type": "Brand",
     "name": "Slot Online"
   },
   "sku": "Slot Online-RESMI2025",
   "mpn": "77GCR-001",
-  "url": "https://puriindahmall.co.id/news/teatalk",
+  "url": "https://puriindahmall.co.id/news/kyochon",
   "offers": {
     "@type": "Offer",
-    "url": "https://puriindahmall.co.id/news/teatalk",
+    "url": "https://puriindahmall.co.id/news/kyochon",
     "priceCurrency": "USD",
     "price": "0.00",
     "priceValidUntil": "2025-12-31",
@@ -135,49 +135,49 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Slot Online",
-      "item": "https://puriindahmall.co.id/news/teatalk"
+      "item": "https://puriindahmall.co.id/news/kyochon"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Slot Online",
-      "item": "https://puriindahmall.co.id/news/teatalk"
+      "item": "https://puriindahmall.co.id/news/kyochon"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Slot Gacor",
-      "item": "https://puriindahmall.co.id/news/teatalk"
+      "item": "https://puriindahmall.co.id/news/kyochon"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Situs MPO",
-      "item": "https://puriindahmall.co.id/news/teatalk"
+      "item": "https://puriindahmall.co.id/news/kyochon"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "Slot Gacor Maxwin",
-      "item": "https://puriindahmall.co.id/news/teatalk"
+      "item": "https://puriindahmall.co.id/news/kyochon"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "Slot Online Terbaru",
-      "item": "https://puriindahmall.co.id/news/teatalk"
+      "item": "https://puriindahmall.co.id/news/kyochon"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "Slot Gacor Online",
-      "item": "https://puriindahmall.co.id/news/teatalk"
+      "item": "https://puriindahmall.co.id/news/kyochon"
     },
     {
       "@type": "ListItem",
       "position": 8,
       "name": "Situs Resmi",
-      "item": "https://puriindahmall.co.id/news/teatalk"
+      "item": "https://puriindahmall.co.id/news/kyochon"
     }
   ]
 }
@@ -188,8 +188,8 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Slot Online",
-  "url": "https://puriindahmall.co.id/news/teatalk",
-  "logo": "https://puriindahmall.pages.dev/logo-jostoto.png",
+  "url": "https://puriindahmall.co.id/news/kyochon",
+  "logo": "https://puriindahmall.pages.dev/logosambal.png",
   "sameAs": [
     "https://www.facebook.com/Slot Online",
     "https://twitter.com/Slot Online",
@@ -217,22 +217,22 @@
     <meta name="bingbot" content="nocache">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="JOSTOTO Tips Login Efektif Masuk ke Situs Slot Resmi">
-    <meta property="og:description" content="JOSTOTO hadir untuk membantu para pemain slot online agar dapat mengakses akun mereka dengan cepat, aman, dan tanpa kendala.">
-    <meta property="og:image" content="https://puriindahmall.pages.dev/logo-jostoto.png">
-    <meta property="og:url" content="https://puriindahmall.co.id/news/teatalk">
+    <meta property="og:title" content="SAMBALTOTO Tips Login Langsung Gas ke Game Slot Terbaik Hari Ini">
+    <meta property="og:description" content="SAMBALTOTO adalah panduan praktis untuk para pemain yang ingin menikmati sensasi bermain slot tanpa hambatan dengan tips login cepat dan mudah.">
+    <meta property="og:image" content="https://puriindahmall.pages.dev/logosambal.png">
+    <meta property="og:url" content="https://puriindahmall.co.id/news/kyochon">
     <meta property="og:type" content="website">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="JOSTOTO Tips Login Efektif Masuk ke Situs Slot Resmi">
-    <meta name="twitter:description" content="JOSTOTO hadir untuk membantu para pemain slot online agar dapat mengakses akun mereka dengan cepat, aman, dan tanpa kendala.">
-    <meta name="twitter:image" content="https://puriindahmall.pages.dev/logo-jostoto.png">
-    <meta property="og:title" content="JOSTOTO Tips Login Efektif Masuk ke Situs Slot Resmi">
+    <meta name="twitter:title" content="SAMBALTOTO Tips Login Langsung Gas ke Game Slot Terbaik Hari Ini">
+    <meta name="twitter:description" content="SAMBALTOTO adalah panduan praktis untuk para pemain yang ingin menikmati sensasi bermain slot tanpa hambatan dengan tips login cepat dan mudah.">
+    <meta name="twitter:image" content="https://puriindahmall.pages.dev/logosambal.png">
+    <meta property="og:title" content="SAMBALTOTO Tips Login Langsung Gas ke Game Slot Terbaik Hari Ini">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://puriindahmall.co.id/news/teatalk">
-    <meta property="og:image" content="https://puriindahmall.pages.dev/jostoto.png">
-    <meta property="og:description" content="JOSTOTO hadir untuk membantu para pemain slot online agar dapat mengakses akun mereka dengan cepat, aman, dan tanpa kendala.">
+    <meta property="og:url" content="https://puriindahmall.co.id/news/kyochon">
+    <meta property="og:image" content="https://puriindahmall.pages.dev/sambaltoto.png">
+    <meta property="og:description" content="SAMBALTOTO adalah panduan praktis untuk para pemain yang ingin menikmati sensasi bermain slot tanpa hambatan dengan tips login cepat dan mudah.">
     <meta property="og:site_name" content="ThemeForest">
     <meta name="csrf-param" content="authenticity_token">
     <meta name="csrf-token" content="o7V7LGbBjnF9HgzqsCOek0VUbYNaqFcrL72zjeu3cGTv2_7pn5UklFm7XFtDaDCfkbbeD4zdIzwPzjrUhXtbHQ">
@@ -1134,7 +1134,7 @@
         <div class="page__off-canvas--left overflow" bis_skin_checked="1">
             <div class="off-canvas-left js-off-canvas-left" bis_skin_checked="1">
                 <div class="off-canvas-left__top" bis_skin_checked="1">
-                    <a href="https://puriindahmall.co.id/news/teatalk">Envato Market</a>
+                    <a href="https://puriindahmall.co.id/news/kyochon">Envato Market</a>
                 </div>
 
                 <div class="off-canvas-left__current-site -color-themeforest" bis_skin_checked="1">
@@ -1142,36 +1142,36 @@
                         Web Themes &amp; Templates
                     </span>
 
-                    <a class="off-canvas-left__current-site-toggle -white-arrow -color-themeforest" data-view="dropdown" data-dropdown-target=".off-canvas-left__sites" href="https://puriindahmall.co.id/news/teatalk"></a>
+                    <a class="off-canvas-left__current-site-toggle -white-arrow -color-themeforest" data-view="dropdown" data-dropdown-target=".off-canvas-left__sites" href="https://puriindahmall.co.id/news/kyochon"></a>
                 </div>
 
                 <div class="off-canvas-left__sites is-hidden" id="off-canvas-sites" bis_skin_checked="1">
-                    <a class="off-canvas-left__site" href="hhttps://puriindahmall.co.id/news/teatalk">
+                    <a class="off-canvas-left__site" href="hhttps://puriindahmall.co.id/news/kyochon">
                         <span class="off-canvas-left__site-title">
                             Code
                         </span>
                         <i class="e-icon -icon-right-open"></i>
-                    </a> <a class="off-canvas-left__site" href="https://puriindahmall.co.id/news/teatalk">
+                    </a> <a class="off-canvas-left__site" href="https://puriindahmall.co.id/news/kyochon">
                         <span class="off-canvas-left__site-title">
                             Video
                         </span>
                         <i class="e-icon -icon-right-open"></i>
-                    </a> <a class="off-canvas-left__site" href="https://puriindahmall.co.id/news/teatalk">
+                    </a> <a class="off-canvas-left__site" href="https://puriindahmall.co.id/news/kyochon">
                         <span class="off-canvas-left__site-title">
                             Audio
                         </span>
                         <i class="e-icon -icon-right-open"></i>
-                    </a> <a class="off-canvas-left__site" href="https://puriindahmall.co.id/news/teatalk">
+                    </a> <a class="off-canvas-left__site" href="https://puriindahmall.co.id/news/kyochon">
                         <span class="off-canvas-left__site-title">
                             Graphics
                         </span>
                         <i class="e-icon -icon-right-open"></i>
-                    </a> <a class="off-canvas-left__site" href="https://puriindahmall.co.id/news/teatalk">
+                    </a> <a class="off-canvas-left__site" href="https://puriindahmall.co.id/news/kyochon">
                         <span class="off-canvas-left__site-title">
                             Photos
                         </span>
                         <i class="e-icon -icon-right-open"></i>
-                    </a> <a class="off-canvas-left__site" href="https://puriindahmall.co.id/news/teatalk">
+                    </a> <a class="off-canvas-left__site" href="https://puriindahmall.co.id/news/kyochon">
                         <span class="off-canvas-left__site-title">
                             3D Files
                         </span>
@@ -1180,7 +1180,7 @@
                 </div>
 
                 <div class="off-canvas-left__search" bis_skin_checked="1">
-                    <form id="search" action="https://puriindahmall.co.id/news/teatalk" accept-charset="UTF-8" method="get">
+                    <form id="search" action="https://puriindahmall.co.id/news/kyochon" accept-charset="UTF-8" method="get">
                         <div class="search-field -border-none" bis_skin_checked="1">
                             <div class="search-field__input" bis_skin_checked="1">
                                 <input id="term" name="term" type="search" placeholder="Search" class="search-field__input-field">
@@ -1195,403 +1195,403 @@
                 <ul>
 
                     <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-all-items" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-all-items" href="https://puriindahmall.co.id/news/kyochon">
                             All Items
                         </a>
                         <ul class="is-hidden" id="off-canvas-all-items">
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Popular Files</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Popular Files</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Featured Files</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Featured Files</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Top New Files</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Top New Files</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Follow Feed</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Follow Feed</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Top Authors</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Top Authors</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Top New
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Top New
                                     Authors</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Public Collections</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Public Collections</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">View All Categories</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">View All Categories</a>
                             </li>
                         </ul>
 
                     </li>
                     <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-wordpress" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-wordpress" href="https://puriindahmall.co.id/news/kyochon">
                             WordPress
                         </a>
                         <ul class="is-hidden" id="off-canvas-wordpress">
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Show all
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Show all
                                     WordPress</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Popular Items</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Popular Items</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Blog /
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Blog /
                                     Magazine</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">BuddyPress</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">BuddyPress</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Corporate</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Corporate</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Creative</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Creative</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Directory &amp; Listings</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Directory &amp; Listings</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">eCommerce</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">eCommerce</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Education</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Education</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Elementor</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Elementor</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Entertainment</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Entertainment</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Mobile</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Mobile</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Nonprofit</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Nonprofit</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Real
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Real
                                     Estate</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Retail</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Retail</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Technology</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Technology</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Wedding</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Wedding</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Miscellaneous</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Miscellaneous</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">WordPress Plugins</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">WordPress Plugins</a>
                             </li>
                         </ul>
 
                     </li>
                     <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-elementor" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-elementor" href="https://puriindahmall.co.id/news/kyochon">
                             Elementor
                         </a>
                         <ul class="is-hidden" id="off-canvas-elementor">
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Template Kits</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Template Kits</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Plugins</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Plugins</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Themes</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Themes</a>
                             </li>
                         </ul>
 
                     </li>
                     <li>
 
-                        <a class="off-canvas-category-link--empty" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link--empty" href="https://puriindahmall.co.id/news/kyochon">
                             Hosting
                         </a>
                     </li>
                     <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-html" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-html" href="https://puriindahmall.co.id/news/kyochon">
                             HTML
                         </a>
                         <ul class="is-hidden" id="off-canvas-html">
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Show all
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Show all
                                     HTML</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Popular Items</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Popular Items</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Admin Templates</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Admin Templates</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Corporate</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Corporate</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Creative</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Creative</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Entertainment</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Entertainment</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Mobile</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Mobile</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Nonprofit</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Nonprofit</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Personal</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Personal</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Retail</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Retail</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Specialty Pages</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Specialty Pages</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Technology</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Technology</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Wedding</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Wedding</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Miscellaneous</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Miscellaneous</a>
                             </li>
                         </ul>
 
                     </li>
                     <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-shopify" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-shopify" href="https://puriindahmall.co.id/news/kyochon">
                             Shopify
                         </a>
                         <ul class="is-hidden" id="off-canvas-shopify">
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Show all
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Show all
                                     Shopify</a>
                             </li>
 
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Popular Items</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Popular Items</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Fashion</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Fashion</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Shopping</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Shopping</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Health &amp; Beauty</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Health &amp; Beauty</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Technology</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Technology</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Entertainment</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Entertainment</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Miscellaneous</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Miscellaneous</a>
                             </li>
                         </ul>
 
                     </li>
                     <li>
 
-                        <a class="off-canvas-category-link--empty" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link--empty" href="https://puriindahmall.co.id/news/kyochon">
                             Jamstack
                         </a>
                     </li>
                     <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-marketing" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-marketing" href="https://puriindahmall.co.id/news/kyochon">
                             Marketing
                         </a>
                         <ul class="is-hidden" id="off-canvas-marketing">
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Show all
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Show all
                                     Marketing</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Popular Items</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Popular Items</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Email Templates</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Email Templates</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Landing Pages</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Landing Pages</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Unbounce Landing Pages</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Unbounce Landing Pages</a>
                             </li>
                         </ul>
 
                     </li>
                     <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-cms" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-cms" href="https://puriindahmall.co.id/news/kyochon">
                             CMS
                         </a>
                         <ul class="is-hidden" id="off-canvas-cms">
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Show all CMS</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Show all CMS</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Popular Items</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Popular Items</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Concrete5</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Concrete5</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Drupal</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Drupal</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">HubSpot CMS Hub</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">HubSpot CMS Hub</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Joomla</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Joomla</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">MODX
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">MODX
                                     Themes</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Moodle</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Moodle</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Webflow</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Webflow</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Weebly</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Weebly</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Miscellaneous</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Miscellaneous</a>
                             </li>
                         </ul>
 
                     </li>
                     <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ecommerce" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ecommerce" href="https://puriindahmall.co.id/news/kyochon">
                             eCommerce
                         </a>
                         <ul class="is-hidden" id="off-canvas-ecommerce">
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Show all
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Show all
                                     eCommerce</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Popular Items</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Popular Items</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">WooCommerce</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">WooCommerce</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">BigCommerce</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">BigCommerce</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Drupal Commerce</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Drupal Commerce</a>
                             </li><li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Easy Digital Downloads</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Easy Digital Downloads</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Ecwid</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Ecwid</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Magento</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Magento</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">OpenCart</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">OpenCart</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">PrestaShop</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">PrestaShop</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Shopify</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Shopify</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Ubercart</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Ubercart</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">VirtueMart</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">VirtueMart</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Zen
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Zen
                                     Cart</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Miscellaneous</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Miscellaneous</a>
                             </li>
                         </ul>
 
                     </li>
                     <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ui-templates" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-ui-templates" href="https://puriindahmall.co.id/news/kyochon">
                             UI Templates
                         </a>
                         <ul class="is-hidden" id="off-canvas-ui-templates">
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Popular Items</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Popular Items</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Figma</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Figma</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Adobe
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Adobe
                                     XD</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Photoshop</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Photoshop</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Sketch</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Sketch</a>
                             </li>
                         </ul>
 
                     </li>
                     <li>
 
-                        <a class="off-canvas-category-link--empty" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link--empty" href="https://puriindahmall.co.id/news/kyochon">
                             Plugins
                         </a>
                     </li>
                     <li>
-                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-more" href="https://puriindahmall.co.id/news/teatalk">
+                        <a class="off-canvas-category-link" data-view="dropdown" data-dropdown-target="#off-canvas-more" href="https://puriindahmall.co.id/news/kyochon">
                             More
                         </a>
                         <ul class="is-hidden" id="off-canvas-more">
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Blogging</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Blogging</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Courses</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Courses</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Facebook Templates</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Facebook Templates</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Free Elementor Templates</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Free Elementor Templates</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Free
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Free
                                     WordPress Themes</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Forums</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Forums</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Ghost
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Ghost
                                     Themes</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/teatalk">Tumblr</a>
+                                <a class="off-canvas-category-link--sub" href="https://puriindahmall.co.id/news/kyochon">Tumblr</a>
                             </li>
                             <li>
-                                <a class="off-canvas-category-link--sub external-link elements-nav__category-link" target="_blank" data-analytics-view-payload="{" eventname":"view_promotion","contextdetail":"sub="" nav","ecommerce":{"promotionid":"unlimited="" creative="" assets","promotionname":"unlimited="" assets","promotiontype":"elements="" referral"}}"="" data-analytics-click-payload="{" eventname":"select_promotion","contextdetail":"sub="" href="https://puriindahmall.co.id/news/teatalk">Unlimited
+                                <a class="off-canvas-category-link--sub external-link elements-nav__category-link" target="_blank" data-analytics-view-payload="{" eventname":"view_promotion","contextdetail":"sub="" nav","ecommerce":{"promotionid":"unlimited="" creative="" assets","promotionname":"unlimited="" assets","promotiontype":"elements="" referral"}}"="" data-analytics-click-payload="{" eventname":"select_promotion","contextdetail":"sub="" href="https://puriindahmall.co.id/news/kyochon">Unlimited
                                     Creative Assets</a>
                             </li>
                         </ul>
@@ -1599,7 +1599,7 @@
                     </li>
 
                     <li>
-                        <a class="elements-nav__category-link external-link" target="_blank" data-analytics-view-payload="{" eventname":"view_promotion","contextdetail":"site="" switcher","ecommerce":{"promotionid":"switcher_mobile_31jul2024","promotionname":"switcher_mobile_31jul2024","promotiontype":"elements="" referral"}}"="" data-analytics-click-payload="{" eventname":"select_promotion","contextdetail":"site="" href="https://puriindahmall.co.id/news/teatalk">Unlimited
+                        <a class="elements-nav__category-link external-link" target="_blank" data-analytics-view-payload="{" eventname":"view_promotion","contextdetail":"site="" switcher","ecommerce":{"promotionid":"switcher_mobile_31jul2024","promotionname":"switcher_mobile_31jul2024","promotiontype":"elements="" referral"}}"="" data-analytics-click-payload="{" eventname":"select_promotion","contextdetail":"site="" href="https://puriindahmall.co.id/news/kyochon">Unlimited
                             Downloads</a>
                     </li>
 
@@ -1611,18 +1611,18 @@
 
         <div class="page__off-canvas--right overflow" bis_skin_checked="1">
             <div class="off-canvas-right" bis_skin_checked="1">
-                <a class="off-canvas-right__link--cart" href="https://puriindahmall.co.id/news/teatalk">
+                <a class="off-canvas-right__link--cart" href="https://puriindahmall.co.id/news/kyochon">
                     Guest Cart
                     <div class="shopping-cart-summary is-empty" data-view="cartCount" bis_skin_checked="1">
                         <span class="js-cart-summary-count shopping-cart-summary__count">0</span>
                         <i class="e-icon -icon-cart"></i>
                     </div>
                 </a>
-                <a class="off-canvas-right__link" href="https://puriindahmall.pages.dev/teatalk">
+                <a class="off-canvas-right__link" href="https://puriindahmall.pages.dev/kyochon">
                     Create an Envato Account
                     <i class="e-icon -icon-envato"></i>
                 </a>
-                <a class="off-canvas-right__link" href="https://puriindahmall.pages.dev/teatalk">
+                <a class="off-canvas-right__link" href="https://puriindahmall.pages.dev/kyochon">
                     Sign In
                     <i class="e-icon -icon-login"></i>
                 </a>
@@ -1638,7 +1638,7 @@
                         <div class="site-header__mini is-hidden-desktop" bis_skin_checked="1">
                             <div class="header-mini" bis_skin_checked="1">
                                 <div class="header-mini__button--cart" bis_skin_checked="1">
-                                    <a class="btn btn--square" href="https://puriindahmall.co.id/news/teatalk">
+                                    <a class="btn btn--square" href="https://puriindahmall.co.id/news/kyochon">
                                         <svg width="14px" height="14px" viewBox="0 0 14 14" class="header-mini__button-cart-icon" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
                                             <title>Cart</title>
                                             <path d="M 0.009 1.349 C 0.009 1.753 0.347 2.086 0.765 2.086 C 0.765 2.086 0.766 2.086 0.767 2.086 L 0.767 2.09 L 2.289 2.09 L 5.029 7.698 L 4.001 9.507 C 3.88 9.714 3.812 9.958 3.812 10.217 C 3.812 11.028 4.496 11.694 5.335 11.694 L 14.469 11.694 L 14.469 11.694 C 14.886 11.693 15.227 11.36 15.227 10.957 C 15.227 10.552 14.886 10.221 14.469 10.219 L 14.469 10.217 L 5.653 10.217 C 5.547 10.217 5.463 10.135 5.463 10.031 L 5.487 9.943 L 6.171 8.738 L 11.842 8.738 C 12.415 8.738 12.917 8.436 13.175 7.978 L 15.901 3.183 C 15.96 3.08 15.991 2.954 15.991 2.828 C 15.991 2.422 15.65 2.09 15.23 2.09 L 3.972 2.09 L 3.481 1.077 L 3.466 1.043 C 3.343 0.79 3.084 0.612 2.778 0.612 C 2.777 0.612 0.765 0.612 0.765 0.612 C 0.347 0.612 0.009 0.943 0.009 1.349 Z M 3.819 13.911 C 3.819 14.724 4.496 15.389 5.335 15.389 C 6.171 15.389 6.857 14.724 6.857 13.911 C 6.857 13.097 6.171 12.434 5.335 12.434 C 4.496 12.434 3.819 13.097 3.819 13.911 Z M 11.431 13.911 C 11.431 14.724 12.11 15.389 12.946 15.389 C 13.784 15.389 14.469 14.724 14.469 13.911 C 14.469 13.097 13.784 12.434 12.946 12.434 C 12.11 12.434 11.431 13.097 11.431 13.911 Z">
@@ -1654,22 +1654,22 @@
                                     </a>
                                 </div>
                                 <div class="header-mini__button--account" bis_skin_checked="1">
-                                    <a class="btn btn--square" data-view="offCanvasNavToggle" data-off-canvas="right" href="https://puriindahmall.co.id/news/teatalk">
+                                    <a class="btn btn--square" data-view="offCanvasNavToggle" data-off-canvas="right" href="https://puriindahmall.co.id/news/kyochon">
                                         <i class="e-icon -icon-person"></i>
                                         <span class="is-hidden">Account</span>
                                     </a>
                                 </div>
 
                                 <div class="header-mini__button--categories" bis_skin_checked="1">
-                                    <a class="btn btn--square" data-view="offCanvasNavToggle" data-off-canvas="left" href="https://puriindahmall.co.id/news/teatalk">
+                                    <a class="btn btn--square" data-view="offCanvasNavToggle" data-off-canvas="left" href="https://puriindahmall.co.id/news/kyochon">
                                         <i class="e-icon -icon-hamburger"></i>
                                         <span class="is-hidden">Sites, Search &amp; Categories</span>
                                     </a>
                                 </div>
 
                                 <div class="header-mini__logo" bis_skin_checked="1">
-                                    <a href="https://puriindahmall.co.id/news/teatalk">
-                                        <img alt="Logo Baru" src="https://puriindahmall.pages.dev/logo-jostoto.png" style="height:40px; width:auto; display:inline-block;">
+                                    <a href="https://puriindahmall.co.id/news/kyochon">
+                                        <img alt="Logo Baru" src="https://puriindahmall.pages.dev/logosambal.png" style="height:40px; width:auto; display:inline-block;">
                                     </a>
                                 </div>
 
@@ -1683,20 +1683,20 @@
 
                             <div class="grid-container -layout-wide" bis_skin_checked="1">
                                 <div class="global-header__wrapper" bis_skin_checked="1">
-                                    <a href="https://puriindahmall.co.id/news/teatalk">
-                                        <img height="50" alt="Envato Market" class="global-header__logo" src="https://puriindahmall.pages.dev/logo-jostoto.png">
+                                    <a href="https://puriindahmall.co.id/news/kyochon">
+                                        <img height="50" alt="Envato Market" class="global-header__logo" src="https://puriindahmall.pages.dev/logosambal.png">
                                     </a>
                                     <nav class="global-header-menu" role="navigation">
                                         <ul class="global-header-menu__list">
                                             <li class="global-header-menu__list-item">
-                                                <a class="global-header-menu__link" href="https://puriindahmall.co.id/news/teatalk">
+                                                <a class="global-header-menu__link" href="https://puriindahmall.co.id/news/kyochon">
                                                     <span class="global-header-menu__link-text">
-                                                        JOSTOTO
+                                                        SAMBALTOTO
                                                     </span>
                                                 </a>
                                             </li>
                                             <li class="global-header-menu__list-item">
-                                                <a class="global-header-menu__link" href="https://puriindahmall.co.id/news/teatalk">
+                                                <a class="global-header-menu__link" href="https://puriindahmall.co.id/news/kyochon">
                                                     <span class="global-header-menu__link-text">
                                                         SLOT RESMI
                                                     </span>
@@ -1705,7 +1705,7 @@
 
 
                                             <li data-view="globalHeaderMenuDropdownHandler" class="global-header-menu__list-item--with-dropdown">
-                                                <a data-lazy-load-trigger="mouseover" class="global-header-menu__link" href="https://puriindahmall.co.id/news/teatalk">
+                                                <a data-lazy-load-trigger="mouseover" class="global-header-menu__link" href="https://puriindahmall.co.id/news/kyochon">
                                                     <svg width="16px" height="16px" viewBox="0 0 16 16" class="global-header-menu__icon" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
                                                         <title>Menu</title>
                                                         <path d="M3.5 2A1.5 1.5 0 0 1 5 3.5 1.5 1.5 0 0 1 3.5 5 1.5 1.5 0 0 1 2 3.5 1.5 1.5 0 0 1 3.5 2zM8 2a1.5 1.5 0 0 1 1.5 1.5A1.5 1.5 0 0 1 8 5a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 8 2zM12.5 2A1.5 1.5 0 0 1 14 3.5 1.5 1.5 0 0 1 12.5 5 1.5 1.5 0 0 1 11 3.5 1.5 1.5 0 0 1 12.5 2zM3.5 6.5A1.5 1.5 0 0 1 5 8a1.5 1.5 0 0 1-1.5 1.5A1.5 1.5 0 0 1 2 8a1.5 1.5 0 0 1 1.5-1.5zM8 6.5A1.5 1.5 0 0 1 9.5 8 1.5 1.5 0 0 1 8 9.5 1.5 1.5 0 0 1 6.5 8 1.5 1.5 0 0 1 8 6.5zM12.5 6.5A1.5 1.5 0 0 1 14 8a1.5 1.5 0 0 1-1.5 1.5A1.5 1.5 0 0 1 11 8a1.5 1.5 0 0 1 1.5-1.5zM3.5 11A1.5 1.5 0 0 1 5 12.5 1.5 1.5 0 0 1 3.5 14 1.5 1.5 0 0 1 2 12.5 1.5 1.5 0 0 1 3.5 11zM8 11a1.5 1.5 0 0 1 1.5 1.5A1.5 1.5 0 0 1 8 14a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 8 11zM12.5 11a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5 1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5z">
@@ -1718,7 +1718,7 @@
                                                     </span>
                                                 </a>
                                             </li><li class="global-header-menu__list-item -background-light -border-radius">
-                                                <a id="spec-link-cart" class="global-header-menu__link h-pr1" href="https://puriindahmall.co.id/news/teatalk">
+                                                <a id="spec-link-cart" class="global-header-menu__link h-pr1" href="https://puriindahmall.co.id/news/kyochon">
 
                                                     <svg width="16px" height="16px" viewBox="0 0 16 16" class="global-header-menu__icon global-header-menu__icon-cart" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
                                                         <title>Cart</title><path d="M 0.009 1.349 C 0.009 1.753 0.347 2.086 0.765 2.086 C 0.765 2.086 0.766 2.086 0.767 2.086 L 0.767 2.09 L 2.289 2.09 L 5.029 7.698 L 4.001 9.507 C 3.88 9.714 3.812 9.958 3.812 10.217 C 3.812 11.028 4.496 11.694 5.335 11.694 L 14.469 11.694 L 14.469 11.694 C 14.886 11.693 15.227 11.36 15.227 10.957 C 15.227 10.552 14.886 10.221 14.469 10.219 L 14.469 10.217 L 5.653 10.217 C 5.547 10.217 5.463 10.135 5.463 10.031 L 5.487 9.943 L 6.171 8.738 L 11.842 8.738 C 12.415 8.738 12.917 8.436 13.175 7.978 L 15.901 3.183 C 15.96 3.08 15.991 2.954 15.991 2.828 C 15.991 2.422 15.65 2.09 15.23 2.09 L 3.972 2.09 L 3.481 1.077 L 3.466 1.043 C 3.343 0.79 3.084 0.612 2.778 0.612 C 2.777 0.612 0.765 0.612 0.765 0.612 C 0.347 0.612 0.009 0.943 0.009 1.349 Z M 3.819 13.911 C 3.819 14.724 4.496 15.389 5.335 15.389 C 6.171 15.389 6.857 14.724 6.857 13.911 C 6.857 13.097 6.171 12.434 5.335 12.434 C 4.496 12.434 3.819 13.097 3.819 13.911 Z M 11.431 13.911 C 11.431 14.724 12.11 15.389 12.946 15.389 C 13.784 15.389 14.469 14.724 14.469 13.911 C 14.469 13.097 13.784 12.434 12.946 12.434 C 12.11 12.434 11.431 13.097 11.431 13.911 Z">
@@ -1732,7 +1732,7 @@
                                             </li>
 
                                             <li class="global-header-menu__list-item -background-light -border-radius">
-                                                <a class="global-header-menu__link h-pl1" data-view="modalAjax" href="https://puriindahmall.co.id/news/teatalk">
+                                                <a class="global-header-menu__link h-pl1" data-view="modalAjax" href="https://puriindahmall.co.id/news/kyochon">
                                                     <span id="spec-user-username" class="global-header-menu__link-text">
                                                         Sign In
                                                     </span>
@@ -1751,25 +1751,25 @@
                                 <div class="grid-container -layout-wide" bis_skin_checked="1">
                                     <nav class="header-site-titles__container">
                                         <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link is-active" alt="Web Templates" href="https://puriindahmall.co.id/news/teatalk">JOSTOTO</a>
+                                            <a class="header-site-titles__link t-link is-active" alt="Web Templates" href="https://puriindahmall.co.id/news/kyochon">SAMBALTOTO</a>
                                         </div>
                                         <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="Code" href="https://puriindahmall.co.id/news/teatalk">LOGIN</a>
+                                            <a class="header-site-titles__link t-link" alt="Code" href="https://puriindahmall.co.id/news/kyochon">LOGIN</a>
                                         </div>
                                         <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="Video" href="https://puriindahmall.co.id/news/teatalk">DAFTAR</a>
+                                            <a class="header-site-titles__link t-link" alt="Video" href="https://puriindahmall.co.id/news/kyochon">DAFTAR</a>
                                         </div>
                                         <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="Music" href="https://puriindahmall.co.id/news/teatalk">PROMOSI</a>
+                                            <a class="header-site-titles__link t-link" alt="Music" href="https://puriindahmall.co.id/news/kyochon">PROMOSI</a>
                                         </div>
                                         <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="Graphics" href="https://puriindahmall.co.id/news/teatalk">RTP LIVE SLOT</a>
+                                            <a class="header-site-titles__link t-link" alt="Graphics" href="https://puriindahmall.co.id/news/kyochon">RTP LIVE SLOT</a>
                                         </div>
                                         <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="Photos" href="https://puriindahmall.co.id/news/teatalk">LIVE CHAT</a>
+                                            <a class="header-site-titles__link t-link" alt="Photos" href="https://puriindahmall.co.id/news/kyochon">LIVE CHAT</a>
                                         </div>
                                         <div class="header-site-titles__site" bis_skin_checked="1">
-                                            <a class="header-site-titles__link t-link" alt="3D Files" href="https://puriindahmall.co.id/news/teatalk">WA RESMI</a>
+                                            <a class="header-site-titles__link t-link" alt="3D Files" href="https://puriindahmall.co.id/news/kyochon">WA RESMI</a>
                                         </div>
 
                                         <div class="header-site-titles__site elements-nav__container" bis_skin_checked="1">
@@ -1812,7 +1812,7 @@
 
                                         <div class="header-site-floating-logo__container" bis_skin_checked="1">
                                             <div class="" bis_skin_checked="1">
-                                                <img src="https://puriindahmall.pages.dev/logo-jostoto.png" alt="Slot Gacor Maxwin" style="max-width: 150px; height: auto; object-fit: contain;" data-spm-anchor-id="0.0.header.i0.27e27142EyRkBl">
+                                                <img src="https://puriindahmall.pages.dev/logosambal.png" alt="Slot Gacor Maxwin" style="max-width: 150px; height: auto; object-fit: contain;" data-spm-anchor-id="0.0.header.i0.27e27142EyRkBl">
                                             </div>
                                         </div>
                                     </nav>
@@ -1826,63 +1826,63 @@
                                 <div class="grid-container -layout-wide" bis_skin_checked="1">
                                     <ul class="header-categories__links">
                                         <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-0-dropdown" href="https://puriindahmall.co.id/news/teatalk">
+                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-0-dropdown" href="https://puriindahmall.co.id/news/kyochon">
 
-                                                JOSTOTO
+                                                SAMBALTOTO
 
                                             </a>
                                         </li>
                                         <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-1-dropdown" href="https://puriindahmall.co.id/news/teatalk">
+                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-1-dropdown" href="https://puriindahmall.co.id/news/kyochon">
 
                                                 Slot Gacor Online
 
                                             </a>
                                         </li>
                                         <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-2-dropdown" href="https://puriindahmall.co.id/news/teatalk">
+                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-2-dropdown" href="https://puriindahmall.co.id/news/kyochon">
 
                                                 Situs Resmi
 
                                             </a>
                                         </li>
                                         <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link header-categories__main-link--empty" href="https://puriindahmall.co.id/news/teatalk">
+                                            <a class="header-categories__main-link header-categories__main-link--empty" href="https://puriindahmall.co.id/news/kyochon">
 
                                                 Slot Online Terbaru
 
                                             </a>
                                         </li>
                                         <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-4-dropdown" href="https://puriindahmall.co.id/news/teatalk">
+                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-4-dropdown" href="https://puriindahmall.co.id/news/kyochon">
 
                                                 Slot Gacor
 
                                             </a>
                                         </li>
                                         <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-5-dropdown" href="https://puriindahmall.co.id/news/teatalk">
+                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-5-dropdown" href="https://puriindahmall.co.id/news/kyochon">
 
                                                 Slot Gacor Maxwin
 
                                             </a>
                                         </li>
                                         <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link header-categories__main-link--empty" href="https://puriindahmall.co.id/news/teatalk">
+                                            <a class="header-categories__main-link header-categories__main-link--empty" href="https://puriindahmall.co.id/news/kyochon">
 
                                                 Login Slot Online
 
                                             </a>
                                         </li>
                                         <li class="header-categories__links-item">
-                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-7-dropdown" href="https://puriindahmall.co.id/news/teatalk">
+                                            <a class="header-categories__main-link" data-view="touchOnlyDropdown" data-dropdown-target=".js-categories-7-dropdown" href="https://puriindahmall.co.id/news/kyochon">
 
                                                 Daftar Slot Online
 
                                             </a>
                                         </li></ul>
                                         <div class="header-categories__search" bis_skin_checked="1">
-                                            <form id="search" data-view="searchField" action="https://puriindahmall.co.id/news/teatalk" accept-charset="UTF-8" method="get">
+                                            <form id="search" data-view="searchField" action="https://puriindahmall.co.id/news/kyochon" accept-charset="UTF-8" method="get">
                                                 <div class="search-field -border-light h-ml2" bis_skin_checked="1">
                                                     <div class="search-field__input" bis_skin_checked="1">
                                                         <input id="term" name="term" class="js-term search-field__input-field" type="search" placeholder="Search">
@@ -1912,25 +1912,25 @@
                         <div class="grid-container " bis_skin_checked="1">
                             <nav class="breadcrumbs h-text-truncate  ">
 
-                                <a class="js-breadcrumb-category" href="https://puriindahmall.co.id/news/teatalk">JOSTOTO</a>
+                                <a class="js-breadcrumb-category" href="https://puriindahmall.co.id/news/kyochon">SAMBALTOTO</a>
 
 
-                                <a href="https://puriindahmall.co.id/news/teatalk" class="js-breadcrumb-category">SLOT RESMI</a>
+                                <a href="https://puriindahmall.co.id/news/kyochon" class="js-breadcrumb-category">SLOT RESMI</a>
 
-                                <a class="js-breadcrumb-category" href="https://puriindahmall.co.id/news/teatalk">JOSTOTO Tips Login Efektif Masuk ke Situs Slot Resmi</a>
+                                <a class="js-breadcrumb-category" href="https://puriindahmall.co.id/news/kyochon">SAMBALTOTO Tips Login Langsung Gas ke Game Slot Terbaik Hari Ini</a>
                             </nav>
 
                             <div class="item-header" data-view="itemHeader" bis_skin_checked="1"><div class="item-header__top" bis_skin_checked="1">
                                     <div class="item-header__title" bis_skin_checked="1">
-                                        <h1 class="t-heading -color-inherit -size-l h-m0 is-hidden-phone">JOSTOTO Tips Login Efektif Masuk ke Situs Slot Resmi</h1>
+                                        <h1 class="t-heading -color-inherit -size-l h-m0 is-hidden-phone">SAMBALTOTO Tips Login Langsung Gas ke Game Slot Terbaik Hari Ini</h1>
 
                                         <h1 class="t-heading -color-inherit -size-xs h-m0 is-hidden-tablet-and-above">
-                                            JOSTOTO Tips Login Efektif Masuk ke Situs Slot Resmi
+                                            SAMBALTOTO Tips Login Langsung Gas ke Game Slot Terbaik Hari Ini
                                         </h1>
                                     </div>
 
                                     <div class="item-header__price is-hidden-desktop" bis_skin_checked="1">
-                                        <a class="js-item-header__cart-button e-btn--3d -color-primary -size-m" rel="nofollow" title="Add to Cart" data-view="modalAjax" href="https://puriindahmall.co.id/news/teatalk">
+                                        <a class="js-item-header__cart-button e-btn--3d -color-primary -size-m" rel="nofollow" title="Add to Cart" data-view="modalAjax" href="https://puriindahmall.co.id/news/kyochon">
                                             <span class="item-header__cart-button-icon">
                                                 <i class="e-icon -icon-cart -margin-right"></i>
                                             </span>
@@ -1944,7 +1944,7 @@
 
                                 <div class="item-header__details-section" bis_skin_checked="1">
                                     <div class="item-header__author-details" bis_skin_checked="1">
-                                        By <a rel="author" class="js-by-author" href="https://puriindahmall.co.id/news/teatalk">JOSTOTO</a>
+                                        By <a rel="author" class="js-by-author" href="https://puriindahmall.co.id/news/kyochon">SAMBALTOTO</a>
                                     </div>
                                     <div class="item-header__sales-count" bis_skin_checked="1">
                                         <svg width="16px" height="16px" viewBox="0 0 16 16" class="item-header__sales-count-icon" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" role="img">
@@ -1975,9 +1975,9 @@
                             <!-- Desktop Item Navigation -->
                             <div class="is-hidden-tablet-and-below page-tabs" bis_skin_checked="1">
                                 <ul>
-                                    <li class="selected"><a class="js-item-navigation-item-details t-link -decoration-none" href="https://puriindahmall.co.id/news/teatalk">Item Details</a>
+                                    <li class="selected"><a class="js-item-navigation-item-details t-link -decoration-none" href="https://puriindahmall.co.id/news/kyochon">Item Details</a>
                                     </li>
-                                    <li><a class="js-item-navigation-reviews t-link -decoration-none" href="https://puriindahmall.co.id/news/teatalk"><span>Reviews</span><span>
+                                    <li><a class="js-item-navigation-reviews t-link -decoration-none" href="https://puriindahmall.co.id/news/kyochon"><span>Reviews</span><span>
                                                 <div class="rating-detailed-small" bis_skin_checked="1">
                                                     <div class="rating-detailed-small__header" bis_skin_checked="1">
                                                         <div class="rating-detailed-small__stars" bis_skin_checked="1">
@@ -1995,8 +1995,8 @@
                                                     </div>
                                                 </div>
                                             </span><span class="item-navigation-reviews-comments">3,128</span></a></li>
-                                    <li><a class="js-item-navigation-comments t-link -decoration-none" href="https://puriindahmall.co.id/news/teatalk"><span>Comments</span><span class="item-navigation-reviews-comments">1,288</span></a></li>
-                                    <li><a class="js-item-navigation-support t-link -decoration-none" href="https://puriindahmall.co.id/news/teatalk">Support</a>
+                                    <li><a class="js-item-navigation-comments t-link -decoration-none" href="https://puriindahmall.co.id/news/kyochon"><span>Comments</span><span class="item-navigation-reviews-comments">1,288</span></a></li>
+                                    <li><a class="js-item-navigation-support t-link -decoration-none" href="https://puriindahmall.co.id/news/kyochon">Support</a>
                                     </li>
                                 </ul>
 
@@ -2023,7 +2023,7 @@
         text-shadow: 2px 2px #0c0f12;
         border-radius: 10px 10px;
         border: 1px solid #000000;
-        background: linear-gradient(to bottom, #ffb300 0, #ffffff 100%);
+        background: linear-gradient(to bottom, #ff3300 0, #ffffff 100%);
         color: #fff;
     }
 
@@ -2031,7 +2031,7 @@
     .register-button {
         text-shadow: 2px 2px #4e0000;
         border-radius: 10px 10px;
-        background: linear-gradient(to bottom, #ffffff 0, #ffb300 100%);
+        background: linear-gradient(to bottom, #ffffff 0, #ff3300 100%);
         border: 1px solid #000000;
     }
 </style>
@@ -2042,8 +2042,8 @@
       <div class="w-100 mt-4 mb-4 text-center">
         
         <div class="n-columns-2">
-            <a href="https://puriindahmall.pages.dev/teatalk" rel="nofollow noreferrer" class="login">LOGIN</a>
-            <a href="https://puriindahmall.pages.dev/teatalk" rel="nofollow noreferrer" class="register">DAFTAR</a>
+            <a href="https://puriindahmall.pages.dev/kyochon" rel="nofollow noreferrer" class="login">LOGIN</a>
+            <a href="https://puriindahmall.pages.dev/kyochon" rel="nofollow noreferrer" class="register">DAFTAR</a>
         </div>
       </div>
                     
@@ -2085,9 +2085,9 @@
 
                             <div class="page-tabs" bis_skin_checked="1">
                                 <ul class="right item-bookmarking__left-icons_hidden" data-view="bookmarkStatesLoader">
-                                    <li class="js-favorite-widget item-bookmarking__control_icons--favorite" data-item-id="8988002"><a data-view="modalAjax" class="t-link -decoration-none" href="https://puriindahmall.co.id/news/teatalk"><span class="item-bookmarking__control--label">Add to Favorites</span></a>
+                                    <li class="js-favorite-widget item-bookmarking__control_icons--favorite" data-item-id="8988002"><a data-view="modalAjax" class="t-link -decoration-none" href="https://puriindahmall.co.id/news/kyochon"><span class="item-bookmarking__control--label">Add to Favorites</span></a>
                                     </li>
-                                    <li class="js-collection-widget item-bookmarking__control_icons--collection" data-item-id="8988002"><a data-view="modalAjax" class="t-link -decoration-none" href="https://puriindahmall.co.id/news/teatalk"><span class="item-bookmarking__control--label">Add to Collection</span></a>
+                                    <li class="js-collection-widget item-bookmarking__control_icons--collection" data-item-id="8988002"><a data-view="modalAjax" class="t-link -decoration-none" href="https://puriindahmall.co.id/news/kyochon"><span class="item-bookmarking__control--label">Add to Collection</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -2102,28 +2102,28 @@
                         <div class="grid-container" bis_skin_checked="1">
                             <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">
                                 //<![CDATA[
-                                window.GtmMeasurements.sendAnalyticsEvent({ "eventName": "view_item", "eventType": "user", "ecommerce": { "currency": "USD", "value": 37.0, "items": [{ "affiliation": "themeforest", "item_id": 8988002, "item_name": "JOSTOTO Tips Login Efektif Masuk ke Situs Slot Resmi", "item_brand": "tokopress", "item_category": "wordpress", "item_category2": "ecommerce", "item_category3": "woocommerce", "price": 37.0, "quantity": 1, "item_add_on": "bundle_6month", "item_variant": "regular" }] } });
+                                window.GtmMeasurements.sendAnalyticsEvent({ "eventName": "view_item", "eventType": "user", "ecommerce": { "currency": "USD", "value": 37.0, "items": [{ "affiliation": "themeforest", "item_id": 8988002, "item_name": "SAMBALTOTO Tips Login Langsung Gas ke Game Slot Terbaik Hari Ini", "item_brand": "tokopress", "item_category": "wordpress", "item_category2": "ecommerce", "item_category3": "woocommerce", "price": 37.0, "quantity": 1, "item_add_on": "bundle_6month", "item_variant": "regular" }] } });
 
                                 //]]>
                             </script>
 
 
                             <div bis_skin_checked="1">
-                                <link href="https://puriindahmall.pages.dev/logo-jostoto.png">
+                                <link href="https://puriindahmall.pages.dev/logosambal.png">
 
                                 <div class="content-s " bis_skin_checked="1">
                                     <div class="item-bookmarking__left-icons__wrapper" bis_skin_checked="1">
                                         <ul class="item-bookmarking__left-icons" data-view="bookmarkStatesLoader">
                                             <li class="item-bookmarking__control_icons--favorite">
                                                 <span>
-                                                    <a title="Add to Favorites" data-view="modalAjax" href="https://puriindahmall.co.id/news/teatalk"><span class="item-bookmarking__control--label">Add to
+                                                    <a title="Add to Favorites" data-view="modalAjax" href="https://puriindahmall.co.id/news/kyochon"><span class="item-bookmarking__control--label">Add to
                                                             Favorites</span></a>
                                                 </span>
 
                                             </li>
                                             <li class="item-bookmarking__control_icons--collection">
                                                 <span>
-                                                    <a title="Add to Collection" data-view="modalAjax" href="https://puriindahmall.co.id/news/teatalk">
+                                                    <a title="Add to Collection" data-view="modalAjax" href="https://puriindahmall.co.id/news/kyochon">
                                                         <span class="item-bookmarking__control--label">Add to
                                                             Collection</span>
                                                     </a> </span>
@@ -2138,7 +2138,7 @@
 
 
 
-                                            <a target="_blank" href="https://puriindahmall.pages.dev/teatalk"><img alt="JOSTOTO Tips Login Efektif Masuk ke Situs Slot Resmi - WooCommerce eCommerce" width="300" height="300" srcset="https://puriindahmall.pages.dev/jostoto.png" sizes="(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px" src="https://puriindahmall.pages.dev/jostoto.png"></a>
+                                            <a target="_blank" href="https://puriindahmall.pages.dev/kyochon"><img alt="SAMBALTOTO Tips Login Langsung Gas ke Game Slot Terbaik Hari Ini - WooCommerce eCommerce" width="300" height="300" srcset="https://puriindahmall.pages.dev/sambaltoto.png" sizes="(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px" src="https://puriindahmall.pages.dev/sambaltoto.png"></a>
                                             <div class="js- item-preview-image__gallery" data-title="Slot Online️Login Akun VIP Slot Gacor Banyak Petir Pecah X1000 Pasti Win - WooCommerce eCommerce Screenshots Gallery" data-url="marketica-marketplace-wordpress-theme/screenshots/modal/8988002" bis_skin_checked="1">
                                                 <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/00-marketica-preview-sale37.jpg">MARKETICA_PREVIEW/00-marketica-preview-sale37.jpg</a>
                                                 <a class="is-hidden" href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/01_marketica2_homepage.png">MARKETICA_PREVIEW/01_marketica2_homepage.png</a>
@@ -2175,11 +2175,11 @@
                                             <div class="item-preview__actions" bis_skin_checked="1">
                                                 <div id="fullscreen" class="item-preview__preview-buttons" bis_skin_checked="1">
 
-                                                    <a href="https://puriindahmall.pages.dev/teatalk" role="button" class="btn-icon live-preview" target="_blank" rel="noopener nofollow">
+                                                    <a href="https://puriindahmall.pages.dev/kyochon" role="button" class="btn-icon live-preview" target="_blank" rel="noopener nofollow">
                                                         LOGIN
                                                     </a>
 
-                                                    <a data-view="screenshotGallery" href="https://puriindahmall.pages.dev/teatalk" role="button" class="btn-icon screenshots" target="_blank" rel="noopener">
+                                                    <a data-view="screenshotGallery" href="https://puriindahmall.pages.dev/kyochon" role="button" class="btn-icon screenshots" target="_blank" rel="noopener">
                                                         DAFTAR
                                                     </a>
 
@@ -2194,7 +2194,7 @@
                                         <div class="js-item-togglable-content has-toggle" bis_skin_checked="1">
 
                                             <div class="js-item-description-toggle item-description-toggle" bis_skin_checked="1">
-                                                <a class="item-description-toggle__link" href="https://puriindahmall.co.id/news/teatalk">
+                                                <a class="item-description-toggle__link" href="https://puriindahmall.co.id/news/kyochon">
                                                     <span>Show More <i class="e-icon -icon-chevron-down"></i></span><span class="item-description-toggle__less">Show Less <i class="e-icon -icon-chevron-down -rotate-180"></i></span>
                                                 </a>
                                             </div>
@@ -2230,7 +2230,7 @@
                                     <div class="pricebox-container" bis_skin_checked="1">
                                         <div class="purchase-panel" bis_skin_checked="1">
                                             <div id="purchase-form" class="purchase-form" bis_skin_checked="1">
-                                                <form data-view="purchaseForm" data-analytics-has-custom-click="true" data-analytics-click-payload="{" eventname":"add_to_cart","eventtype":"user","quantityupdate":false,"ecommerce":{"currency":"usd","value":37.0,"items":[{"affiliation":"themeforest","item_id":8988002,"item_name":"Slot Online:="" link="" situs="" mpo="" slot="" online="" terbaru="" gacor="" maxwin="" resmi="" hari="" ini","item_brand":"tokopress","item_category":"wordpress","item_category2":"ecommerce","item_category3":"woocommerce","price":"37","quantity":1}]}}"="" action="https://puriindahmall.co.id/news/teatalk" accept-charset="UTF-8" method="post">
+                                                <form data-view="purchaseForm" data-analytics-has-custom-click="true" data-analytics-click-payload="{" eventname":"add_to_cart","eventtype":"user","quantityupdate":false,"ecommerce":{"currency":"usd","value":37.0,"items":[{"affiliation":"themeforest","item_id":8988002,"item_name":"Slot Online:="" link="" situs="" mpo="" slot="" online="" terbaru="" gacor="" maxwin="" resmi="" hari="" ini","item_brand":"tokopress","item_category":"wordpress","item_category2":"ecommerce","item_category3":"woocommerce","price":"37","quantity":1}]}}"="" action="https://puriindahmall.co.id/news/kyochon" accept-charset="UTF-8" method="post">
                                                     <input type="hidden" name="authenticity_token" value="o7V7LGbBjnF9HgzqsCOek0VUbYNaqFcrL72zjeu3cGTv2_7pn5UklFm7XFtDaDCfkbbeD4zdIzwPzjrUhXtbHQ" autocomplete="off">
                                                     <div bis_skin_checked="1">
                                                         <div data-view="itemVariantSelector" data-id="8988002" data-cookiebot-enabled="true" bis_skin_checked="1">
@@ -2268,7 +2268,7 @@
                                                                             </div>
                                                                             <div class="flyout__link" bis_skin_checked="1">
                                                                                 <p class="t-body -size-m h-m0">
-                                                                                    <a class="t-link -decoration-reversed" target="_blank" href="https://puriindahmall.co.id/news/teatalk/licenses/standard">View
+                                                                                    <a class="t-link -decoration-reversed" target="_blank" href="https://puriindahmall.co.id/news/kyochon/licenses/standard">View
                                                                                         license details</a></p>
                                                                             </div>
                                                                         </div>
@@ -2293,11 +2293,11 @@
                                                                 <ul class="t-icon-list -font-size-s -icon-size-s -offset-flush">
                                                                     <li class="t-icon-list__item -icon-ok">
                                                                         <span class="is-visually-hidden">Included:</span>
-                                                                        JOSTOTO
+                                                                        SAMBALTOTO
                                                                     </li>
                                                                     <li class="t-icon-list__item -icon-ok">
                                                                         <span class="is-visually-hidden">Included:</span>
-                                                                        JOSTOTO LOGIN 
+                                                                        SAMBALTOTO LOGIN 
                                                                     </li>
                                                                     <li class="t-icon-list__item -icon-ok">
                                                                         <span class="is-visually-hidden">Included:</span>
@@ -2335,12 +2335,12 @@
                                                         </div>
                                                         <p class="t-body -size-m"><i>This item is licensed 100% GPL.</i>
                                                         </p>
-                                                        <h1>JOSTOTO Tips Login Efektif Masuk ke Situs Slot Resmi</h1>
-                                                        <p class="t-body -size-m">JOSTOTO hadir untuk membantu para pemain slot online agar dapat mengakses akun mereka dengan cepat, aman, dan tanpa kendala. Melalui panduan login yang sederhana namun efektif, JOSTOTO memastikan setiap pengguna bisa masuk ke situs resmi tanpa risiko error atau gangguan sistem.</p>
-                                                        <p class="t-body -size-m">Tips login ini dirancang agar pemain dapat menikmati pengalaman bermain slot lebih lancar, mulai dari pengecekan koneksi, validasi akun, hingga langkah aman saat memasukkan data login. Dengan mengikuti langkah-langkah dari JOSTOTO, kamu bisa langsung menikmati berbagai permainan slot gacor dari provider terbaik dunia.</p>
+                                                        <h1>SAMBALTOTO Tips Login Langsung Gas ke Game Slot Terbaik Hari Ini</h1>
+                                                        <p class="t-body -size-m">SAMBALTOTO adalah panduan praktis untuk para pemain yang ingin menikmati sensasi bermain slot tanpa hambatan dengan tips login cepat dan mudah. SAMBALTOTO memastikan setiap member dapat langsung masuk ke akun mereka dan bermain di berbagai game slot terbaik tanpa harus menunggu lama.</p>
+                                                        <p class="t-body -size-m">Panduan ini membantu pemain memahami cara login yang benar, menjaga kestabilan koneksi, serta memastikan keamanan akun agar pengalaman bermain selalu lancar. SAMBALTOTO juga merekomendasikan pilihan game slot gacor hari ini yang siap memberikan peluang jackpot besar bagi para penggemar slot online.</p>
                                                         <div class="purchase-form__cta-buttons" bis_skin_checked="1">
                                                             <div class="purchase-form__button" bis_skin_checked="1">
-                                                               <p><a href="https://puriindahmall.pages.dev/teatalk"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/DwsObPv.gif" alt="Daftar Slot Online" width="280" height="90"></a></p></div>
+                                                               <p><a href="https://puriindahmall.pages.dev/kyochon"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/DwsObPv.gif" alt="Daftar Slot Online" width="280" height="90"></a></p></div>
 
                                                         </div>
                                                         <div class="purchase-form__us-dollars-notice-container" bis_skin_checked="1">
@@ -2362,7 +2362,7 @@
                                     <div class="t-body -size-s h-text-align-center h-mt2" bis_skin_checked="1">
                                          All Rights Reserved Slot Online
                                         <br>
-                                        <a href="https://puriindahmall.co.id/news/teatalk">Contact the JOSTOTO Help Team</a>
+                                        <a href="https://puriindahmall.co.id/news/kyochon">Contact the SAMBALTOTO Help Team</a>
                                     </div>
 
                                 </div>
@@ -2443,7 +2443,7 @@
                                                         <a class="global-footer__text-link" href="https://envato.com/blog">Blog</a>
                                                     </li>
                                                     <li class="global-footer-sublist__item h-p0">
-                                                        <a class="global-footer__text-link" href="https://puriindahmall.co.id/news/teatalk">Forums</a>
+                                                        <a class="global-footer__text-link" href="https://puriindahmall.co.id/news/kyochon">Forums</a>
                                                     </li>
                                                     <li class="global-footer-sublist__item h-p0">
                                                         <a class="global-footer__text-link" href="https://community.envato.com/#/events">Meetups</a>
@@ -2478,7 +2478,7 @@
 
                                     <div class="global-footer-stats" bis_skin_checked="1">
                                         <div class="global-footer-stats__content" bis_skin_checked="1">
-                                            <img class="global-footer-stats__logo" alt="Envato Market" src="https://puriindahmall.pages.dev/logo-jostoto.png">
+                                            <img class="global-footer-stats__logo" alt="Envato Market" src="https://puriindahmall.pages.dev/logosambal.png">
 
                                             <ul class="global-footer-stats__list">
                                                 <li class="global-footer-stats__list-item h-p0">
@@ -2676,14 +2676,14 @@
         </div>
     </div>
     <div id="js-customer-satisfaction-popup" class="survey-popup is-visually-hidden" bis_skin_checked="1">
-        <div class="h-text-align-right" bis_skin_checked="1"><a href="https://puriindahmall.co.id/news/teatalk" id="js-popup-close-button" class="e-alert-box__dismiss-icon"><i class="e-icon -icon-cancel"></i></a>
+        <div class="h-text-align-right" bis_skin_checked="1"><a href="https://puriindahmall.co.id/news/kyochon" id="js-popup-close-button" class="e-alert-box__dismiss-icon"><i class="e-icon -icon-cancel"></i></a>
         </div>
         <div class="survey-popup--section" bis_skin_checked="1">
             <h2 class="t-heading h-text-align-center -size-m">Tell us what you think!</h2>
             <p>We'd like to ask you a few questions to help improve ThemeForest.</p>
         </div>
         <div class="survey-popup--section" bis_skin_checked="1">
-            <a href="https://puriindahmall.co.id/news/teatalk" id="js-show-survey-button" class="e-btn -color-primary -size-m -width-full js-survey-popup--show-survey-button">Sure, take me to
+            <a href="https://puriindahmall.co.id/news/kyochon" id="js-show-survey-button" class="e-btn -color-primary -size-m -width-full js-survey-popup--show-survey-button">Sure, take me to
                 the survey</a>
         </div>
     </div>
@@ -2828,7 +2828,7 @@
         </div>
         <div class="flyout__link" bis_skin_checked="1">
             <p class="t-body -size-m h-m0">
-                <a class="t-link -decoration-reversed" target="_blank" href="https://puriindahmall.co.id/news/teatalk">View license details</a>
+                <a class="t-link -decoration-reversed" target="_blank" href="https://puriindahmall.co.id/news/kyochon">View license details</a>
             </p>
         </div>
     </div><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="AW-953691586" data-load-time="1753876666560" height="0" width="0" src="https://td.doubleclick.net/td/rul/953691586?random=1753876666537&amp;cv=11&amp;fst=1753876666537&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be57s1z89195929391za200zb9195929391zd9195929391&amp;gcd=13n3n3n3n5l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~104948813~105103161~105103163~105124543~105124545&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fthemeforest.net%2Fitem%2Fmarketica-marketplace-wordpress-theme%2F8988002%3Fsrsltid%3DAfmBOorwNEgJi-iQXu--3qzSatNlhXMhGjZ-gMFxbyMWP2LkJDdESL9b&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Marketica%20-%20eCommerce%20and%20Marketplace%20-%20WooCommerce%20WordPress%20Theme%20by%20tokopress&amp;npa=0&amp;us_privacy=1---&amp;pscdl=noapi&amp;auid=786247872.1753876602&amp;uaa=x86&amp;uab=64&amp;uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.183%7CGoogle%2520Chrome%3B138.0.7204.183&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config" style="display: none; visibility: hidden;" bis_size="{" x":0,"y":300,"w":0,"h":0,"abs_x":0,"abs_y":300}"="" bis_id="fr_x7s5fwn363kzny6xssxfbd" bis_depth="0" bis_chainid="2"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="AW-943617023" data-load-time="1753876666627" height="0" width="0" src="https://td.doubleclick.net/td/rul/943617023?random=1753876666603&amp;cv=11&amp;fst=1753876666603&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be57s1v889115050z89195929391za200zb9195929391zd9195929391&amp;gcd=13n3n3n3n5l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~104948813~105103161~105103163~105124543~105124545&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fthemeforest.net%2Fitem%2Fmarketica-marketplace-wordpress-theme%2F8988002%3Fsrsltid%3DAfmBOorwNEgJi-iQXu--3qzSatNlhXMhGjZ-gMFxbyMWP2LkJDdESL9b&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Marketica%20-%20eCommerce%20and%20Marketplace%20-%20WooCommerce%20WordPress%20Theme%20by%20tokopress&amp;npa=0&amp;us_privacy=1---&amp;pscdl=noapi&amp;auid=786247872.1753876602&amp;uaa=x86&amp;uab=64&amp;uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.183%7CGoogle%2520Chrome%3B138.0.7204.183&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config" style="display: none; visibility: hidden;" bis_size="{" x":0,"y":300,"w":0,"h":0,"abs_x":0,"abs_y":300}"="" bis_id="fr_ha2x32or3khbgk3c9ve5nv" bis_depth="0" bis_chainid="3"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="AW-943617023" data-load-time="1753876666634" height="0" width="0" src="https://td.doubleclick.net/td/rul/943617023?random=1753876666631&amp;cv=11&amp;fst=1753876666631&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be57s1v889115050z89195929391za200zb9195929391zd9195929391&amp;gcd=13n3n3n3n5l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~104948813~105103161~105103163~105124543~105124545&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fthemeforest.net%2Fitem%2Fmarketica-marketplace-wordpress-theme%2F8988002%3Fsrsltid%3DAfmBOorwNEgJi-iQXu--3qzSatNlhXMhGjZ-gMFxbyMWP2LkJDdESL9b&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Marketica%20-%20eCommerce%20and%20Marketplace%20-%20WooCommerce%20WordPress%20Theme%20by%20tokopress&amp;did=dMWZhNz&amp;gdid=dMWZhNz&amp;npa=0&amp;us_privacy=1---&amp;pscdl=noapi&amp;auid=786247872.1753876602&amp;uaa=x86&amp;uab=64&amp;uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.183%7CGoogle%2520Chrome%3B138.0.7204.183&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;fledge=1&amp;_tu=Cg&amp;data=ads_data_redaction%3Dfalse" style="display: none; visibility: hidden;" bis_size="{" x":0,"y":300,"w":0,"h":0,"abs_x":0,"abs_y":300}"="" bis_id="fr_z2gfbnsev3bhw7ln6q22jb" bis_depth="0" bis_chainid="4"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="AW-800411572" data-load-time="1753876666710" height="0" width="0" src="https://td.doubleclick.net/td/rul/800411572?random=1753876666684&amp;cv=11&amp;fst=1753876666684&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be57s1v896649154z89195929391za200zb9195929391zd9195929391&amp;gcd=13n3n3n3n5l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~104948813~105087538~105087540~105103161~105103163~105124543~105124545&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fthemeforest.net%2Fitem%2Fmarketica-marketplace-wordpress-theme%2F8988002%3Fsrsltid%3DAfmBOorwNEgJi-iQXu--3qzSatNlhXMhGjZ-gMFxbyMWP2LkJDdESL9b&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Marketica%20-%20eCommerce%20and%20Marketplace%20-%20WooCommerce%20WordPress%20Theme%20by%20tokopress&amp;npa=0&amp;us_privacy=1---&amp;pscdl=noapi&amp;auid=786247872.1753876602&amp;uaa=x86&amp;uab=64&amp;uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.183%7CGoogle%2520Chrome%3B138.0.7204.183&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config" style="display: none; visibility: hidden;" bis_size="{" x":0,"y":300,"w":0,"h":0,"abs_x":0,"abs_y":300}"="" bis_id="fr_ir7vx1wyqbahien0mokr2t" bis_depth="0" bis_chainid="5"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="AW-934741711" data-load-time="1753876666723" height="0" width="0" src="https://td.doubleclick.net/td/rul/934741711?random=1753876666713&amp;cv=11&amp;fst=1753876666713&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be57s1v896649154z89195929391za200zb9195929391zd9195929391&amp;gcd=13n3n3n3n5l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~104948813~105087538~105087540~105103161~105103163~105124543~105124545&amp;u_w=1920&amp;u_h=1080&amp;url=https%3A%2F%2Fthemeforest.net%2Fitem%2Fmarketica-marketplace-wordpress-theme%2F8988002%3Fsrsltid%3DAfmBOorwNEgJi-iQXu--3qzSatNlhXMhGjZ-gMFxbyMWP2LkJDdESL9b&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Marketica%20-%20eCommerce%20and%20Marketplace%20-%20WooCommerce%20WordPress%20Theme%20by%20tokopress&amp;npa=0&amp;us_privacy=1---&amp;pscdl=noapi&amp;auid=786247872.1753876602&amp;uaa=x86&amp;uab=64&amp;uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.183%7CGoogle%2520Chrome%3B138.0.7204.183&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config" style="display: none; visibility: hidden;" bis_size="{" x":0,"y":300,"w":0,"h":0,"abs_x":0,"abs_y":300}"="" bis_id="fr_rldn0wquvhqrddm50v4c1n" bis_depth="0" bis_chainid="6"></iframe><img id="CookiebotSessionPixel" src="https://imgsct.cookiebot.com/1.gif?dgi=d10f7659-aa82-4007-9cf1-54a9496002bf" alt="Cookiebot session tracker icon loaded" data-cookieconsent="ignore" style="display: none;">
